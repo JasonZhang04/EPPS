@@ -1,27 +1,26 @@
-# Unity executable (too large for git)
+# Unity executable (1.6GB, too large for git)
 *.app/
+macos_exec*/
 *.exe
 *.x86_64
 *.zip
 
-# Generated videos and output frames
+# Generated output
 output_video/
 *.mp4
 *.avi
+*.png
 
-# Python
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
-.ipynb_checkpoints/
-
-# Conda/pip
 *.egg-info/
-.env
+.ipynb_checkpoints/
 
 # Mac system files
 .DS_Store
 
 # Large data files
-*.json.gz
 dataset/
+*.resS
