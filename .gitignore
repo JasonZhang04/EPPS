@@ -1,0 +1,27 @@
+# Unity executable (too large for git)
+*.app/
+*.exe
+*.x86_64
+*.zip
+
+# Generated videos and output frames
+output_video/
+*.mp4
+*.avi
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Conda/pip
+*.egg-info/
+.env
+
+# Mac system files
+.DS_Store
+
+# Large data files
+*.json.gz
+dataset/
