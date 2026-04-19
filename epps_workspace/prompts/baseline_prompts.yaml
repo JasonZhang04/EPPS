@@ -1,0 +1,24 @@
+zero_shot: |
+  You are an Execution Planner. The user issued command: "{instruction}".
+  Assign a valid receptacle destination for each novel item: {novel_items}.
+  Rely on your standard pre-trained societal norms. Output a JSON dict of {item_name: destination}.
+  
+rag_history: |
+  Analyze this raw history log of past actions to figure out where the user likes things:
+  {history_log}
+  
+  Now assign destinations for the novel items: {novel_items}.
+  Output ONLY a JSON dict.
+  
+naive_summary_step1: |
+  Based on this history log, write a 3-sentence plain English summary of the user's spatial habits:
+  {history_log}
+  
+naive_summary_step2: |
+  You are an Execution Planner. The user issued command: "{instruction}".
+  Assign a valid receptacle destination for each novel item: {novel_items}.
+  
+  Follow the plain English summary of the user's habits below:
+  {plain_text_summary}
+  
+  Output ONLY a JSON dict.
