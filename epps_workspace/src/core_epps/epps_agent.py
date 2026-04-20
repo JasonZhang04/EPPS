@@ -1,5 +1,5 @@
 import json
-from src.models.schemas import CommonGroundModel
+from src.models.schemas import CommonGroundModel, ItemOverride, RuleSource
 from .layer1_extractor import extract_cgm_from_background
 from .layer2_corrector import apply_human_correction
 from .execution_planner import synthesize_execution_program
@@ -14,36 +14,43 @@ class EPPSAgent:
     def observe_background(self, state_diff_log: list[str]):
         """Layer 1: Passive Observation. Compiles the initial CGM."""
         print(f"[{self.user_id}] Layer 1: Processing {len(state_diff_log)} background observations...")
-        raw_cgm_json = extract_cgm_from_background(self.api_client, state_diff_log)
+        
+        existing_cgm_json = self.cgm_state.model_dump_json() if self.cgm_state else None
+        raw_cgm_json = extract_cgm_from_background(self.api_client, state_diff_log, existing_cgm_json)
+        
         try:
             self.cgm_state = CommonGroundModel(**json.loads(raw_cgm_json))
         except Exception as e:
             print(f"[{self.user_id}] Error parsing CGM JSON from Layer 1: {e}")
-            self.cgm_state = CommonGroundModel(user_id=self.user_id, category_mappings={})
+            if not self.cgm_state:
+                self.cgm_state = CommonGroundModel(user_id=self.user_id, category_mappings={})
+            # If self.cgm_state already exists, retain previous state
 
     def receive_feedback(self, correction_diff_log: list[str]):
         """Layer 2: Implicit Correction. Updates the CGM based on human overriding actions."""
         if not self.cgm_state:
             raise ValueError("Cannot apply Layer 2 feedback without an existing Layer 1 CGM.")
         print(f"[{self.user_id}] Layer 2: Applying human correction log...")
-        updated_cgm_json = apply_human_correction(self.api_client, self.cgm_state.model_dump_json(), correction_diff_log)
+        delta_json = apply_human_correction(self.api_client, correction_diff_log)
         
         try:
-            new_cgm_data = json.loads(updated_cgm_json)
-            # Apply Bayesian momentum decay tracking logic here
-            alpha = 0.8
-            if self.cgm_state:
-                for cat, rule in new_cgm_data.get('category_mappings', {}).items():
-                    if cat in self.cgm_state.category_mappings:
-                        old_conf = self.cgm_state.category_mappings[cat].confidence
-                        # Simplistic decay representation; in a real implementation, 
-                        # the logical indicator function calculates if the new correction matched.
-                        new_conf = (alpha * old_conf) + ((1 - alpha) * rule.get('confidence', 1.0))
-                        rule['confidence'] = new_conf
-                        
-            self.cgm_state = CommonGroundModel(**new_cgm_data)
+            delta = json.loads(delta_json)
+            item = delta.get("item_name")
+            dest = delta.get("new_destination")
+            
+            if item in self.cgm_state.item_overrides:
+                old_conf = self.cgm_state.item_overrides[item].confidence
+                # alpha = 0.7, w = 0.3 (Layer 2 penalty)
+                new_conf = (0.7 * old_conf) + (0.3 * 0.3 * 1.0) 
+                self.cgm_state.item_overrides[item].confidence = new_conf
+                self.cgm_state.item_overrides[item].destination = dest
+            else:
+                # Create new override with heavily discounted initial confidence
+                self.cgm_state.item_overrides[item] = ItemOverride(
+                    destination=dest, confidence=0.3, source=RuleSource(layer="L2_correction")
+                )
         except Exception as e:
-            print(f"[{self.user_id}] Error parsing updated CGM JSON from Layer 2: {e}")
+            print(f"[{self.user_id}] Error parsing delta JSON from Layer 2: {e}")
 
     def plan_execution(self, instruction: str, novel_items: list[str]) -> dict[str, str]:
         """Queries the CGM constraint solver to route novel items."""

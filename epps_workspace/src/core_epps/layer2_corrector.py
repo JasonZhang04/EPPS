@@ -1,10 +1,12 @@
 import json
 import yaml
 import os
+import re
 from typing import List
 from src.api.thinking_machine import ThinkingMachineClient
+from src.models.schemas import CorrectionDelta
 
-def apply_human_correction(api_client: ThinkingMachineClient, current_cgm_json: str, correction_diff_log: List[str]) -> str:
+def apply_human_correction(api_client: ThinkingMachineClient, correction_diff_log: List[str]) -> str:
     """
     Layer 2: Implicit Correction. Updates the CGM based on human overriding actions.
     """
@@ -12,12 +14,12 @@ def apply_human_correction(api_client: ThinkingMachineClient, current_cgm_json: 
     with open(prompt_path, 'r') as f:
         prompts = yaml.safe_load(f)
         
-    system_prompt = prompts['system_prompt']
+    schema_str = json.dumps(CorrectionDelta.model_json_schema(), indent=2)
+    system_prompt = prompts['system_prompt'] + f"\n\nJSON SCHEMA YOU MUST FOLLOW:\n{schema_str}"
     
     user_message = (
-        f"CURRENT CGM:\n{current_cgm_json}\n\n"
         f"HUMAN CORRECTION LOG:\n{json.dumps(correction_diff_log, indent=2)}\n\n"
-        f"Please output the fully updated CGM JSON."
+        f"Extract the delta using the CorrectionDelta schema. Output ONLY valid JSON."
     )
     
     response = api_client.query([
@@ -25,9 +27,8 @@ def apply_human_correction(api_client: ThinkingMachineClient, current_cgm_json: 
         {"role": "user", "content": user_message}
     ], temperature=0.0)
     
-    if "```json" in response:
-        response = response.split("```json")[1].split("```")[0].strip()
-    elif "```" in response:
-        response = response.split("```")[1].strip()
+    match = re.search(r'\{.*\}', response, re.DOTALL)
+    if match:
+        response = match.group(0)
         
     return response

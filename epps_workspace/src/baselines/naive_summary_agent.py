@@ -7,26 +7,35 @@ from src.api.thinking_machine import ThinkingMachineClient
 class NaiveSummaryAgent:
     def __init__(self, api_client: ThinkingMachineClient):
         self.api_client = api_client
+        self.current_summary: str = "No history yet."
         
         prompt_path = os.path.join(os.path.dirname(__file__), '..', '..', 'prompts', 'baseline_prompts.yaml')
         with open(prompt_path, 'r') as f:
             self.prompts = yaml.safe_load(f)
 
-    def predict(self, instruction: str, novel_items: List[str], history_log: List[str]) -> Dict[str, str]:
-        # Step 1: Summarize history
+    def update_memory(self, history_log: List[str]):
+        if not history_log:
+            return
+            
+        system_prompt = (
+            "Read this new history log and update your existing running summary of the user's habits.\n"
+            f"Previous Summary: {self.current_summary}"
+        )
         history_text = "\n".join(history_log)
-        step1_prompt = self.prompts['naive_summary_step1'].format(history_log=history_text)
         
-        summary_response = self.api_client.query([
-            {"role": "system", "content": step1_prompt},
-            {"role": "user", "content": "Generate the summary."}
+        response = self.api_client.query([
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": f"New history log:\n{history_text}\nGenerate the updated summary."}
         ], temperature=0.0)
         
-        # Step 2: Use summary to plan
+        self.current_summary = response.strip()
+
+    def predict(self, instruction: str, novel_items: List[str], history_log: List[str] = None) -> Dict[str, str]:
+        # Step 2: Use summary to plan (Step 1 is now handled by update_memory)
         step2_prompt = self.prompts['naive_summary_step2'].format(
             instruction=instruction,
             novel_items=novel_items,
-            plain_text_summary=summary_response
+            plain_text_summary=self.current_summary
         )
         
         response = self.api_client.query([

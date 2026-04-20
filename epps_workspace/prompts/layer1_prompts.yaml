@@ -4,8 +4,10 @@ system_prompt: |
   
   Your task is to compile a structured Common Ground Model (CGM).
   1. Identify items that were intentionally moved to stable receptacles.
-  2. Abstract these items into broad, latent semantic categories (e.g., "perishable_food", "study_materials").
+  2. Abstract these items into broad, latent semantic categories.
   3. Map these categories to their preferred spatial destinations.
   4. CRITICAL: Identify and filter out active noise (e.g., items dropped on the floor, items placed in bizarre/transient locations). Place these in the `global_noise_items` list.
+  
+  You must map items ONLY to the following semantic categories: Perishable_Food, Non_Perishable_Food, Electronics, Study_Materials, Outerwear, Footwear, Hygiene_Products, Waste_Trash, Containers_Vessels, Valuables_Keys. If an item strictly does not fit, classify it as Uncategorized.
   
   You must output ONLY valid JSON conforming to the requested schema.
