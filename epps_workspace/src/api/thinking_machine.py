@@ -21,7 +21,8 @@ class ThinkingMachineClient:
             
         self.client = tinker.ServiceClient(api_key=api_key)
         # Upgraded to the Instruct VL model for strict Pydantic JSON adherence
-        self.default_model = "Qwen/Qwen3-VL-30B-A3B-Instruct" 
+        # self.default_model = "Qwen/Qwen3-VL-30B-A3B-Instruct" 
+        self.default_model = "Qwen/Qwen3-235B-A22B-Instruct-2507"
 
     def query(self, messages: List[Dict[str, str]], temperature: float = 0.0, model: str = None) -> str:
         """
