@@ -3,7 +3,7 @@ import os
 import time
 
 from src.api.thinking_machine import ThinkingMachineClient
-from src.data_gen.persona_definitions import PERSONAS, GROUND_TRUTH_EVAL
+from src.data_gen.persona_definitions import PERSONAS, GROUND_TRUTH_EVAL, CORRECTION_SCENARIOS
 from src.data_gen.vh_script_writer import request_vh_script
 from src.data_gen.physics_validator import validate_and_extract
 
@@ -37,8 +37,7 @@ def compile_dataset(api_client: ThinkingMachineClient, output_path: str = "data/
                     diffs = validation_result['diffs']
                     print(f"  -> SUCCESS! Generated {len(diffs)} topological state diffs.")
 
-                    # Generate implicit correction scenario (simplified stub for loop output completion)
-                    correction_log = ["[MOVED] mock_item : (ON chair) -> (IN correct_drawer)"]
+                    correction_log = CORRECTION_SCENARIOS[persona_name]
                     novel_items = list(GROUND_TRUTH_EVAL[persona_name].keys())
                     ground_truth = GROUND_TRUTH_EVAL[persona_name]
 

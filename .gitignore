@@ -67,6 +67,10 @@ epps_video_output/
 *.png
 dataset/
 
+# Allow the generated eval dataset to be tracked by teammates
+!epps_workspace/data/
+!epps_workspace/data/eval_dataset.json
+
 # --- VirtualHome Specific ---
 # These were previously in virtualhome/.gitignore
 virtualhome/simulation/unity_simulator/windows_exec.v2.3.0/

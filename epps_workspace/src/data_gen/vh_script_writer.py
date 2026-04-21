@@ -7,26 +7,45 @@ You are generating a household activity script for the VirtualHome simulation en
 
 ENVIRONMENT:
 You have the following character: <character> (5)
-You have the following receptacles: <fridge> (10), <kitchen_table> (11), <sink> (12), <desk> (13), <bookshelf> (14), <closet> (15), <sofa> (16), <bathroom_cabinet> (17).
-You must tidy the following items currently ON the kitchen_table: <laptop> (24), <textbook> (28), <jacket> (31), <apple> (20), <water_glass> (34), <keys> (35).
+
+RECEPTACLES — surfaces only (use [putback] to place items ON these, cannot be opened):
+  <kitchen_table> (11), <sink> (12), <desk> (13), <bookshelf> (14), <sofa> (16)
+
+RECEPTACLES — openable containers (use [open], [putin], [close] to place items INSIDE these):
+  <fridge> (10), <closet> (15), <bathroom_cabinet> (17)
+
+You must tidy the following items currently ON the kitchen_table:
+  <laptop> (24), <textbook> (28), <jacket> (31), <apple> (20), <water_glass> (34), <keys> (35)
 
 PERSONA:
 {persona_description}
 
 INSTRUCTIONS:
 1. Write a script to tidy the items according to the PERSONA.
-2. You must inject exactly ONE "Noise" action (e.g., picking up an item and dropping it on the sofa or floor, or picking it up and putting it right back).
+2. You must inject exactly ONE "Noise" action: pick up one item and place it on a surface (e.g., sofa), then later move it to its correct location.
 3. You must use ONLY the following actions: [walk], [grab], [putin], [putback], [open], [close].
-4. Your output must be strictly formatted line-by-line as VirtualHome DSL. Do not output markdown, explanations, or code blocks.
+4. CRITICAL: Only use [open] and [close] on the three openable containers: fridge (10), closet (15), bathroom_cabinet (17). Never [open] a surface.
+5. Your output must be strictly formatted line-by-line as VirtualHome DSL. Do not output markdown, explanations, or code blocks.
 
 SYNTAX RULES:
-- To move: <char0> [walk] <item> (id)
-- To pick up: <char0> [grab] <item> (id)
-- To put ON a surface: <char0> [putback] <item> (id) <receptacle> (id)
-- To put INSIDE (must open first): 
-  <char0> [open] <receptacle> (id)
-  <char0> [putin] <item> (id) <receptacle> (id)
-  <char0> [close] <receptacle> (id)
+The character must WALK to an object before interacting with it.
+
+- Pick up item from table: <char0> [walk] <item_name> (item_id)
+                           <char0> [grab] <item_name> (item_id)
+
+- Place ON a surface:      <char0> [walk] <surface_name> (surface_id)
+                           <char0> [putback] <item_name> (item_id) <surface_name> (surface_id)
+
+- Pick up item from surface (e.g. sofa): walk to the ITEM, not the surface
+                           <char0> [walk] <item_name> (item_id)
+                           <char0> [grab] <item_name> (item_id)
+                           NOTE: NEVER write [grab] <sofa> or [grab] <desk>. Always grab the ITEM by name.
+
+- Place INSIDE container:  <char0> [walk] <container_name> (container_id)
+                           <char0> [open] <container_name> (container_id)
+                           <char0> [putin] <item_name> (item_id) <container_name> (container_id)
+                           <char0> [close] <container_name> (container_id)
+                           NOTE: [putin] requires [open] immediately before it in the same location. Never skip [open].
 """
 
 def request_vh_script(api_client: ThinkingMachineClient, persona_description: str) -> list[str]:
@@ -35,19 +54,23 @@ def request_vh_script(api_client: ThinkingMachineClient, persona_description: st
     """
     prompt = PROMPT_TEMPLATE.format(persona_description=persona_description)
     
+    # /no_think disables Qwen3's chain-of-thought reasoning, which otherwise
+    # consumes the entire token budget before writing a single script line.
     response = api_client.query([
         {"role": "system", "content": prompt},
-        {"role": "user", "content": "Generate the script now. Output only raw instructions."}
+        {"role": "user", "content": "Generate the script now. Output only raw instructions. /no_think"}
     ], temperature=0.7)
 
-    # Clean the output into a list of lines, stripping any stray markdown
     lines = []
     for line in response.split('\n'):
         line = line.strip()
+        # Strip stop token that occasionally bleeds onto the last line
+        line = line.replace("<|im_end|>", "").strip()
+        if not line:
+            continue
         if line.startswith("<char0>") or line.startswith("["):
-            # Some LLMs forget <char0>
             if not line.startswith("<char0>"):
                 line = f"<char0> {line}"
             lines.append(line)
-            
+
     return lines

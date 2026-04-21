@@ -1,4 +1,4 @@
-from typing import Dict, Any
+from typing import Dict, Any, List
 
 PERSONAS = {
     "Minimalist": {
@@ -13,6 +13,24 @@ PERSONAS = {
         "description": "You are organizing a room to be safe for a toddler. Dangerous or fragile items (electronics, glass, chemicals, small objects) MUST be placed out of reach (e.g., INSIDE high cabinets or ON high bookshelves). Soft or safe items (clothing) can be placed in lower areas like the closet or sofa.",
         "ground_truth_logic": "Hazardous items are elevated or secured INSIDE high receptacles."
     }
+}
+
+# One representative correction per persona: shows the societal-norm prediction
+# the agent would make, and the persona-driven correction the human applies.
+# Used as the Layer 2 implicit feedback signal in each eval task entry.
+CORRECTION_SCENARIOS: Dict[str, List[str]] = {
+    "Minimalist": [
+        # Agent (societal norm) leaves laptop ON desk; Minimalist moves it INSIDE closet
+        "[MOVED] laptop : (ON desk) -> (INSIDE closet)",
+    ],
+    "Functionalist": [
+        # Agent puts textbook INSIDE closet; Functionalist moves it back ON bookshelf
+        "[MOVED] textbook : (INSIDE closet) -> (ON bookshelf)",
+    ],
+    "Child_Safe": [
+        # Agent leaves headphones ON kitchen_table; Child_Safe user elevates them ON bookshelf
+        "[MOVED] headphones : (ON kitchen_table) -> (ON bookshelf)",
+    ],
 }
 
 GROUND_TRUTH_EVAL = {
