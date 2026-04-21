@@ -1,0 +1,1820 @@
+[
+    {
+        "persona": "Minimalist",
+        "history_log": [
+            "[MOVED] character : (INSIDE kitchen) -> (INSIDE bathroom)",
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE fridge)",
+            "[MOVED] laptop : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] jacket : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] water_glass : (ON kitchen_table) -> (INSIDE fridge)",
+            "[MOVED] keys : (ON kitchen_table) -> (INSIDE bathroom_cabinet)"
+        ],
+        "human_correction_log": [
+            "[MOVED] laptop : (ON desk) -> (INSIDE closet)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "desk",
+            "novel": "bookshelf",
+            "sweater": "closet",
+            "bag_of_chips": "fridge"
+        },
+        "raw_script": [
+            "<char0> [walk] <laptop> (24)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <laptop> (24) <sofa> (16)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <laptop> (24) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <textbook> (28)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <jacket> (31) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <apple> (20)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <fridge> (10)",
+            "<char0> [open] <fridge> (10)",
+            "<char0> [putin] <apple> (20) <fridge> (10)",
+            "<char0> [close] <fridge> (10)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <sink> (12)",
+            "<char0> [putback] <water_glass> (34) <sink> (12)",
+            "<char0> [walk] <sink> (12)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <fridge> (10)",
+            "<char0> [open] <fridge> (10)",
+            "<char0> [putin] <water_glass> (34) <fridge> (10)",
+            "<char0> [close] <fridge> (10)",
+            "<char0> [walk] <keys> (35)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <bathroom_cabinet> (17)",
+            "<char0> [open] <bathroom_cabinet> (17)",
+            "<char0> [putin] <keys> (35) <bathroom_cabinet> (17)",
+            "<char0> [close] <bathroom_cabinet> (17)"
+        ]
+    },
+    {
+        "persona": "Minimalist",
+        "history_log": [
+            "[MOVED] character : (INSIDE kitchen) -> (INSIDE bathroom)",
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE fridge)",
+            "[MOVED] laptop : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] jacket : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] water_glass : (ON kitchen_table) -> (ON sink)",
+            "[MOVED] keys : (ON kitchen_table) -> (INSIDE bathroom_cabinet)"
+        ],
+        "human_correction_log": [
+            "[MOVED] laptop : (ON desk) -> (INSIDE closet)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "desk",
+            "novel": "bookshelf",
+            "sweater": "closet",
+            "bag_of_chips": "fridge"
+        },
+        "raw_script": [
+            "<char0> [walk] <laptop> (24)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <laptop> (24) <sofa> (16)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <laptop> (24) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <textbook> (28)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <jacket> (31) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <apple> (20)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <fridge> (10)",
+            "<char0> [open] <fridge> (10)",
+            "<char0> [putin] <apple> (20) <fridge> (10)",
+            "<char0> [close] <fridge> (10)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <sink> (12)",
+            "<char0> [putback] <water_glass> (34) <sink> (12)",
+            "<char0> [walk] <keys> (35)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <bathroom_cabinet> (17)",
+            "<char0> [open] <bathroom_cabinet> (17)",
+            "<char0> [putin] <keys> (35) <bathroom_cabinet> (17)",
+            "<char0> [close] <bathroom_cabinet> (17)"
+        ]
+    },
+    {
+        "persona": "Minimalist",
+        "history_log": [
+            "[MOVED] character : (INSIDE kitchen) -> (INSIDE bathroom)",
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE fridge)",
+            "[MOVED] laptop : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] jacket : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] water_glass : (ON kitchen_table) -> (ON sink)",
+            "[MOVED] keys : (ON kitchen_table) -> (INSIDE bathroom_cabinet)"
+        ],
+        "human_correction_log": [
+            "[MOVED] laptop : (ON desk) -> (INSIDE closet)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "desk",
+            "novel": "bookshelf",
+            "sweater": "closet",
+            "bag_of_chips": "fridge"
+        },
+        "raw_script": [
+            "<char0> [walk] <laptop> (24)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <laptop> (24) <sofa> (16)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <laptop> (24) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <textbook> (28)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <jacket> (31) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <apple> (20)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <fridge> (10)",
+            "<char0> [open] <fridge> (10)",
+            "<char0> [putin] <apple> (20) <fridge> (10)",
+            "<char0> [close] <fridge> (10)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <sink> (12)",
+            "<char0> [putback] <water_glass> (34) <sink> (12)",
+            "<char0> [walk] <keys> (35)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <bathroom_cabinet> (17)",
+            "<char0> [open] <bathroom_cabinet> (17)",
+            "<char0> [putin] <keys> (35) <bathroom_cabinet> (17)",
+            "<char0> [close] <bathroom_cabinet> (17)"
+        ]
+    },
+    {
+        "persona": "Minimalist",
+        "history_log": [
+            "[MOVED] character : (INSIDE kitchen) -> (INSIDE bathroom)",
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE fridge)",
+            "[MOVED] laptop : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] jacket : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] water_glass : (ON kitchen_table) -> (ON sink)",
+            "[MOVED] keys : (ON kitchen_table) -> (INSIDE bathroom_cabinet)"
+        ],
+        "human_correction_log": [
+            "[MOVED] laptop : (ON desk) -> (INSIDE closet)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "desk",
+            "novel": "bookshelf",
+            "sweater": "closet",
+            "bag_of_chips": "fridge"
+        },
+        "raw_script": [
+            "<char0> [walk] <laptop> (24)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <laptop> (24) <sofa> (16)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <laptop> (24) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <textbook> (28)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <jacket> (31) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <apple> (20)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <fridge> (10)",
+            "<char0> [open] <fridge> (10)",
+            "<char0> [putin] <apple> (20) <fridge> (10)",
+            "<char0> [close] <fridge> (10)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <sink> (12)",
+            "<char0> [putback] <water_glass> (34) <sink> (12)",
+            "<char0> [walk] <keys> (35)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <bathroom_cabinet> (17)",
+            "<char0> [open] <bathroom_cabinet> (17)",
+            "<char0> [putin] <keys> (35) <bathroom_cabinet> (17)",
+            "<char0> [close] <bathroom_cabinet> (17)"
+        ]
+    },
+    {
+        "persona": "Minimalist",
+        "history_log": [
+            "[MOVED] character : (INSIDE kitchen) -> (INSIDE bathroom)",
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE fridge)",
+            "[MOVED] laptop : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] jacket : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] water_glass : (ON kitchen_table) -> (ON sink)",
+            "[MOVED] keys : (ON kitchen_table) -> (INSIDE bathroom_cabinet)"
+        ],
+        "human_correction_log": [
+            "[MOVED] laptop : (ON desk) -> (INSIDE closet)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "desk",
+            "novel": "bookshelf",
+            "sweater": "closet",
+            "bag_of_chips": "fridge"
+        },
+        "raw_script": [
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <laptop> (24) <sofa> (16)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <laptop> (24) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <jacket> (31) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <fridge> (10)",
+            "<char0> [open] <fridge> (10)",
+            "<char0> [putin] <apple> (20) <fridge> (10)",
+            "<char0> [close] <fridge> (10)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <sink> (12)",
+            "<char0> [putback] <water_glass> (34) <sink> (12)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <bathroom_cabinet> (17)",
+            "<char0> [open] <bathroom_cabinet> (17)",
+            "<char0> [putin] <keys> (35) <bathroom_cabinet> (17)",
+            "<char0> [close] <bathroom_cabinet> (17)"
+        ]
+    },
+    {
+        "persona": "Minimalist",
+        "history_log": [
+            "[MOVED] character : (INSIDE kitchen) -> (INSIDE bathroom)",
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE fridge)",
+            "[MOVED] laptop : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] jacket : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] water_glass : (ON kitchen_table) -> (ON sink)",
+            "[MOVED] keys : (ON kitchen_table) -> (INSIDE bathroom_cabinet)"
+        ],
+        "human_correction_log": [
+            "[MOVED] laptop : (ON desk) -> (INSIDE closet)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "desk",
+            "novel": "bookshelf",
+            "sweater": "closet",
+            "bag_of_chips": "fridge"
+        },
+        "raw_script": [
+            "<char0> [walk] <laptop> (24)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <laptop> (24) <sofa> (16)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <laptop> (24) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <textbook> (28)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <jacket> (31) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <apple> (20)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <fridge> (10)",
+            "<char0> [open] <fridge> (10)",
+            "<char0> [putin] <apple> (20) <fridge> (10)",
+            "<char0> [close] <fridge> (10)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <sink> (12)",
+            "<char0> [putback] <water_glass> (34) <sink> (12)",
+            "<char0> [walk] <keys> (35)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <bathroom_cabinet> (17)",
+            "<char0> [open] <bathroom_cabinet> (17)",
+            "<char0> [putin] <keys> (35) <bathroom_cabinet> (17)",
+            "<char0> [close] <bathroom_cabinet> (17)"
+        ]
+    },
+    {
+        "persona": "Minimalist",
+        "history_log": [
+            "[MOVED] character : (INSIDE kitchen) -> (INSIDE bedroom)",
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE fridge)",
+            "[MOVED] laptop : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] jacket : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] water_glass : (ON kitchen_table) -> (INSIDE bathroom_cabinet)",
+            "[MOVED] keys : (ON kitchen_table) -> (INSIDE closet)"
+        ],
+        "human_correction_log": [
+            "[MOVED] laptop : (ON desk) -> (INSIDE closet)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "desk",
+            "novel": "bookshelf",
+            "sweater": "closet",
+            "bag_of_chips": "fridge"
+        },
+        "raw_script": [
+            "<char0> [walk] <laptop> (24)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <laptop> (24) <sofa> (16)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <laptop> (24) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <textbook> (28)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <jacket> (31) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <apple> (20)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <fridge> (10)",
+            "<char0> [open] <fridge> (10)",
+            "<char0> [putin] <apple> (20) <fridge> (10)",
+            "<char0> [close] <fridge> (10)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <sink> (12)",
+            "<char0> [putback] <water_glass> (34) <sink> (12)",
+            "<char0> [walk] <sink> (12)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <bathroom_cabinet> (17)",
+            "<char0> [open] <bathroom_cabinet> (17)",
+            "<char0> [putin] <water_glass> (34) <bathroom_cabinet> (17)",
+            "<char0> [close] <bathroom_cabinet> (17)",
+            "<char0> [walk] <keys> (35)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <keys> (35) <closet> (15)",
+            "<char0> [close] <closet> (15)"
+        ]
+    },
+    {
+        "persona": "Minimalist",
+        "history_log": [
+            "[MOVED] character : (INSIDE kitchen) -> (INSIDE bathroom)",
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE fridge)",
+            "[MOVED] laptop : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] jacket : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] water_glass : (ON kitchen_table) -> (ON sink)",
+            "[MOVED] keys : (ON kitchen_table) -> (INSIDE bathroom_cabinet)"
+        ],
+        "human_correction_log": [
+            "[MOVED] laptop : (ON desk) -> (INSIDE closet)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "desk",
+            "novel": "bookshelf",
+            "sweater": "closet",
+            "bag_of_chips": "fridge"
+        },
+        "raw_script": [
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <laptop> (24) <sofa> (16)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <laptop> (24) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <jacket> (31) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <fridge> (10)",
+            "<char0> [open] <fridge> (10)",
+            "<char0> [putin] <apple> (20) <fridge> (10)",
+            "<char0> [close] <fridge> (10)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <sink> (12)",
+            "<char0> [putback] <water_glass> (34) <sink> (12)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <bathroom_cabinet> (17)",
+            "<char0> [open] <bathroom_cabinet> (17)",
+            "<char0> [putin] <keys> (35) <bathroom_cabinet> (17)",
+            "<char0> [close] <bathroom_cabinet> (17)"
+        ]
+    },
+    {
+        "persona": "Minimalist",
+        "history_log": [
+            "[MOVED] character : (INSIDE kitchen) -> (INSIDE bathroom)",
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE fridge)",
+            "[MOVED] laptop : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] jacket : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] water_glass : (ON kitchen_table) -> (ON sink)",
+            "[MOVED] keys : (ON kitchen_table) -> (INSIDE bathroom_cabinet)"
+        ],
+        "human_correction_log": [
+            "[MOVED] laptop : (ON desk) -> (INSIDE closet)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "desk",
+            "novel": "bookshelf",
+            "sweater": "closet",
+            "bag_of_chips": "fridge"
+        },
+        "raw_script": [
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <laptop> (24) <sofa> (16)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <laptop> (24) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <jacket> (31) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <fridge> (10)",
+            "<char0> [open] <fridge> (10)",
+            "<char0> [putin] <apple> (20) <fridge> (10)",
+            "<char0> [close] <fridge> (10)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <sink> (12)",
+            "<char0> [putback] <water_glass> (34) <sink> (12)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <bathroom_cabinet> (17)",
+            "<char0> [open] <bathroom_cabinet> (17)",
+            "<char0> [putin] <keys> (35) <bathroom_cabinet> (17)",
+            "<char0> [close] <bathroom_cabinet> (17)"
+        ]
+    },
+    {
+        "persona": "Minimalist",
+        "history_log": [
+            "[MOVED] character : (INSIDE kitchen) -> (INSIDE bedroom)",
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE fridge)",
+            "[MOVED] laptop : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] jacket : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] water_glass : (ON kitchen_table) -> (INSIDE bathroom_cabinet)",
+            "[MOVED] keys : (ON kitchen_table) -> (INSIDE closet)"
+        ],
+        "human_correction_log": [
+            "[MOVED] laptop : (ON desk) -> (INSIDE closet)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "desk",
+            "novel": "bookshelf",
+            "sweater": "closet",
+            "bag_of_chips": "fridge"
+        },
+        "raw_script": [
+            "<char0> [walk] <laptop> (24)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <laptop> (24) <sofa> (16)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <laptop> (24) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <textbook> (28)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <jacket> (31) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <apple> (20)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <fridge> (10)",
+            "<char0> [open] <fridge> (10)",
+            "<char0> [putin] <apple> (20) <fridge> (10)",
+            "<char0> [close] <fridge> (10)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <sink> (12)",
+            "<char0> [putback] <water_glass> (34) <sink> (12)",
+            "<char0> [walk] <sink> (12)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <bathroom_cabinet> (17)",
+            "<char0> [open] <bathroom_cabinet> (17)",
+            "<char0> [putin] <water_glass> (34) <bathroom_cabinet> (17)",
+            "<char0> [close] <bathroom_cabinet> (17)",
+            "<char0> [walk] <keys> (35)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <keys> (35) <closet> (15)",
+            "<char0> [close] <closet> (15)"
+        ]
+    },
+    {
+        "persona": "Functionalist",
+        "history_log": [
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE fridge)",
+            "[MOVED] laptop : (ON kitchen_table) -> (ON desk)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "human_correction_log": [
+            "[MOVED] textbook : (INSIDE closet) -> (ON bookshelf)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "desk",
+            "novel": "sofa",
+            "sweater": "closet",
+            "bag_of_chips": "kitchen_table"
+        },
+        "raw_script": [
+            "<char0> [walk] <laptop> (24)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <desk> (13)",
+            "<char0> [putback] <laptop> (24) <desk> (13)",
+            "<char0> [walk] <textbook> (28)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <jacket> (31) <sofa> (16)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <jacket> (31) <kitchen_table> (11)",
+            "<char0> [walk] <apple> (20)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <fridge> (10)",
+            "<char0> [open] <fridge> (10)",
+            "<char0> [putin] <apple> (20) <fridge> (10)",
+            "<char0> [close] <fridge> (10)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <water_glass> (34) <kitchen_table> (11)",
+            "<char0> [walk] <keys> (35)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <keys> (35) <kitchen_table> (11)"
+        ]
+    },
+    {
+        "persona": "Functionalist",
+        "history_log": [
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE fridge)",
+            "[MOVED] laptop : (ON kitchen_table) -> (ON desk)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "human_correction_log": [
+            "[MOVED] textbook : (INSIDE closet) -> (ON bookshelf)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "desk",
+            "novel": "sofa",
+            "sweater": "closet",
+            "bag_of_chips": "kitchen_table"
+        },
+        "raw_script": [
+            "<char0> [walk] <laptop> (24)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <desk> (13)",
+            "<char0> [putback] <laptop> (24) <desk> (13)",
+            "<char0> [walk] <textbook> (28)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <jacket> (31) <sofa> (16)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <jacket> (31) <kitchen_table> (11)",
+            "<char0> [walk] <apple> (20)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <fridge> (10)",
+            "<char0> [open] <fridge> (10)",
+            "<char0> [putin] <apple> (20) <fridge> (10)",
+            "<char0> [close] <fridge> (10)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <water_glass> (34) <kitchen_table> (11)",
+            "<char0> [walk] <keys> (35)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <keys> (35) <kitchen_table> (11)"
+        ]
+    },
+    {
+        "persona": "Functionalist",
+        "history_log": [
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE fridge)",
+            "[MOVED] laptop : (ON kitchen_table) -> (ON desk)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "human_correction_log": [
+            "[MOVED] textbook : (INSIDE closet) -> (ON bookshelf)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "desk",
+            "novel": "sofa",
+            "sweater": "closet",
+            "bag_of_chips": "kitchen_table"
+        },
+        "raw_script": [
+            "<char0> [walk] <laptop> (24)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <desk> (13)",
+            "<char0> [putback] <laptop> (24) <desk> (13)",
+            "<char0> [walk] <textbook> (28)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <jacket> (31) <sofa> (16)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <jacket> (31) <kitchen_table> (11)",
+            "<char0> [walk] <apple> (20)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <fridge> (10)",
+            "<char0> [open] <fridge> (10)",
+            "<char0> [putin] <apple> (20) <fridge> (10)",
+            "<char0> [close] <fridge> (10)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <water_glass> (34) <kitchen_table> (11)",
+            "<char0> [walk] <keys> (35)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <keys> (35) <kitchen_table> (11)"
+        ]
+    },
+    {
+        "persona": "Functionalist",
+        "history_log": [
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE fridge)",
+            "[MOVED] laptop : (ON kitchen_table) -> (ON desk)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "human_correction_log": [
+            "[MOVED] textbook : (INSIDE closet) -> (ON bookshelf)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "desk",
+            "novel": "sofa",
+            "sweater": "closet",
+            "bag_of_chips": "kitchen_table"
+        },
+        "raw_script": [
+            "<char0> [walk] <laptop> (24)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <desk> (13)",
+            "<char0> [putback] <laptop> (24) <desk> (13)",
+            "<char0> [walk] <textbook> (28)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <jacket> (31) <sofa> (16)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <jacket> (31) <kitchen_table> (11)",
+            "<char0> [walk] <apple> (20)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <fridge> (10)",
+            "<char0> [open] <fridge> (10)",
+            "<char0> [putin] <apple> (20) <fridge> (10)",
+            "<char0> [close] <fridge> (10)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <water_glass> (34) <kitchen_table> (11)",
+            "<char0> [walk] <keys> (35)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <keys> (35) <kitchen_table> (11)"
+        ]
+    },
+    {
+        "persona": "Functionalist",
+        "history_log": [
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE fridge)",
+            "[MOVED] laptop : (ON kitchen_table) -> (ON desk)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "human_correction_log": [
+            "[MOVED] textbook : (INSIDE closet) -> (ON bookshelf)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "desk",
+            "novel": "sofa",
+            "sweater": "closet",
+            "bag_of_chips": "kitchen_table"
+        },
+        "raw_script": [
+            "<char0> [walk] <laptop> (24)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <desk> (13)",
+            "<char0> [putback] <laptop> (24) <desk> (13)",
+            "<char0> [walk] <textbook> (28)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <jacket> (31) <sofa> (16)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <jacket> (31) <kitchen_table> (11)",
+            "<char0> [walk] <apple> (20)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <fridge> (10)",
+            "<char0> [open] <fridge> (10)",
+            "<char0> [putin] <apple> (20) <fridge> (10)",
+            "<char0> [close] <fridge> (10)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <water_glass> (34) <kitchen_table> (11)",
+            "<char0> [walk] <keys> (35)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <keys> (35) <kitchen_table> (11)"
+        ]
+    },
+    {
+        "persona": "Functionalist",
+        "history_log": [
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE fridge)",
+            "[MOVED] laptop : (ON kitchen_table) -> (ON desk)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "human_correction_log": [
+            "[MOVED] textbook : (INSIDE closet) -> (ON bookshelf)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "desk",
+            "novel": "sofa",
+            "sweater": "closet",
+            "bag_of_chips": "kitchen_table"
+        },
+        "raw_script": [
+            "<char0> [walk] <laptop> (24)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <desk> (13)",
+            "<char0> [putback] <laptop> (24) <desk> (13)",
+            "<char0> [walk] <textbook> (28)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <jacket> (31) <sofa> (16)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <jacket> (31) <kitchen_table> (11)",
+            "<char0> [walk] <apple> (20)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <fridge> (10)",
+            "<char0> [open] <fridge> (10)",
+            "<char0> [putin] <apple> (20) <fridge> (10)",
+            "<char0> [close] <fridge> (10)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <water_glass> (34) <kitchen_table> (11)",
+            "<char0> [walk] <keys> (35)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <keys> (35) <kitchen_table> (11)"
+        ]
+    },
+    {
+        "persona": "Functionalist",
+        "history_log": [
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE fridge)",
+            "[MOVED] laptop : (ON kitchen_table) -> (ON desk)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "human_correction_log": [
+            "[MOVED] textbook : (INSIDE closet) -> (ON bookshelf)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "desk",
+            "novel": "sofa",
+            "sweater": "closet",
+            "bag_of_chips": "kitchen_table"
+        },
+        "raw_script": [
+            "<char0> [walk] <laptop> (24)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <desk> (13)",
+            "<char0> [putback] <laptop> (24) <desk> (13)",
+            "<char0> [walk] <textbook> (28)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <jacket> (31) <sofa> (16)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <jacket> (31) <kitchen_table> (11)",
+            "<char0> [walk] <apple> (20)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <fridge> (10)",
+            "<char0> [open] <fridge> (10)",
+            "<char0> [putin] <apple> (20) <fridge> (10)",
+            "<char0> [close] <fridge> (10)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <water_glass> (34) <kitchen_table> (11)",
+            "<char0> [walk] <keys> (35)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <keys> (35) <kitchen_table> (11)"
+        ]
+    },
+    {
+        "persona": "Functionalist",
+        "history_log": [
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE fridge)",
+            "[MOVED] laptop : (ON kitchen_table) -> (ON desk)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "human_correction_log": [
+            "[MOVED] textbook : (INSIDE closet) -> (ON bookshelf)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "desk",
+            "novel": "sofa",
+            "sweater": "closet",
+            "bag_of_chips": "kitchen_table"
+        },
+        "raw_script": [
+            "<char0> [walk] <laptop> (24)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <desk> (13)",
+            "<char0> [putback] <laptop> (24) <desk> (13)",
+            "<char0> [walk] <textbook> (28)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <jacket> (31) <sofa> (16)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <jacket> (31) <kitchen_table> (11)",
+            "<char0> [walk] <apple> (20)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <fridge> (10)",
+            "<char0> [open] <fridge> (10)",
+            "<char0> [putin] <apple> (20) <fridge> (10)",
+            "<char0> [close] <fridge> (10)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <water_glass> (34) <kitchen_table> (11)",
+            "<char0> [walk] <keys> (35)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <keys> (35) <kitchen_table> (11)"
+        ]
+    },
+    {
+        "persona": "Functionalist",
+        "history_log": [
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE fridge)",
+            "[MOVED] laptop : (ON kitchen_table) -> (ON desk)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "human_correction_log": [
+            "[MOVED] textbook : (INSIDE closet) -> (ON bookshelf)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "desk",
+            "novel": "sofa",
+            "sweater": "closet",
+            "bag_of_chips": "kitchen_table"
+        },
+        "raw_script": [
+            "<char0> [walk] <laptop> (24)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <desk> (13)",
+            "<char0> [putback] <laptop> (24) <desk> (13)",
+            "<char0> [walk] <textbook> (28)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <jacket> (31) <sofa> (16)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <jacket> (31) <kitchen_table> (11)",
+            "<char0> [walk] <apple> (20)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <fridge> (10)",
+            "<char0> [open] <fridge> (10)",
+            "<char0> [putin] <apple> (20) <fridge> (10)",
+            "<char0> [close] <fridge> (10)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <water_glass> (34) <kitchen_table> (11)",
+            "<char0> [walk] <keys> (35)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <keys> (35) <kitchen_table> (11)"
+        ]
+    },
+    {
+        "persona": "Functionalist",
+        "history_log": [
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE fridge)",
+            "[MOVED] laptop : (ON kitchen_table) -> (ON desk)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "human_correction_log": [
+            "[MOVED] textbook : (INSIDE closet) -> (ON bookshelf)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "desk",
+            "novel": "sofa",
+            "sweater": "closet",
+            "bag_of_chips": "kitchen_table"
+        },
+        "raw_script": [
+            "<char0> [walk] <laptop> (24)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <desk> (13)",
+            "<char0> [putback] <laptop> (24) <desk> (13)",
+            "<char0> [walk] <textbook> (28)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <jacket> (31) <sofa> (16)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <jacket> (31) <kitchen_table> (11)",
+            "<char0> [walk] <apple> (20)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <fridge> (10)",
+            "<char0> [open] <fridge> (10)",
+            "<char0> [putin] <apple> (20) <fridge> (10)",
+            "<char0> [close] <fridge> (10)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <water_glass> (34) <kitchen_table> (11)",
+            "<char0> [walk] <keys> (35)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [putback] <keys> (35) <kitchen_table> (11)"
+        ]
+    },
+    {
+        "persona": "Child_Safe",
+        "history_log": [
+            "[MOVED] character : (INSIDE kitchen) -> (INSIDE bedroom)",
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE bathroom_cabinet)",
+            "[MOVED] laptop : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON desk)",
+            "[MOVED] jacket : (ON kitchen_table) -> (ON closet)",
+            "[MOVED] water_glass : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] keys : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "human_correction_log": [
+            "[MOVED] headphones : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "bookshelf",
+            "novel": "sofa",
+            "sweater": "closet",
+            "bag_of_chips": "fridge"
+        },
+        "raw_script": [
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <laptop> (24) <bookshelf> (14)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <desk> (13)",
+            "<char0> [putback] <textbook> (28) <desk> (13)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [putback] <jacket> (31) <closet> (15)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <bathroom_cabinet> (17)",
+            "<char0> [open] <bathroom_cabinet> (17)",
+            "<char0> [putin] <apple> (20) <bathroom_cabinet> (17)",
+            "<char0> [close] <bathroom_cabinet> (17)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <water_glass> (34) <sofa> (16)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <water_glass> (34) <bookshelf> (14)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <keys> (35) <bookshelf> (14)"
+        ]
+    },
+    {
+        "persona": "Child_Safe",
+        "history_log": [
+            "[MOVED] character : (INSIDE kitchen) -> (INSIDE bedroom)",
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE bathroom_cabinet)",
+            "[MOVED] laptop : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON desk)",
+            "[MOVED] jacket : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] water_glass : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] keys : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "human_correction_log": [
+            "[MOVED] headphones : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "bookshelf",
+            "novel": "sofa",
+            "sweater": "closet",
+            "bag_of_chips": "fridge"
+        },
+        "raw_script": [
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <laptop> (24) <bookshelf> (14)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <desk> (13)",
+            "<char0> [putback] <textbook> (28) <desk> (13)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <jacket> (31) <sofa> (16)",
+            "<char0> [walk] <jacket> (31) (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <jacket> (31) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <bathroom_cabinet> (17)",
+            "<char0> [open] <bathroom_cabinet> (17)",
+            "<char0> [putin] <apple> (20) <bathroom_cabinet> (17)",
+            "<char0> [close] <bathroom_cabinet> (17)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <water_glass> (34) <bookshelf> (14)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <keys> (35) <bookshelf> (14)"
+        ]
+    },
+    {
+        "persona": "Child_Safe",
+        "history_log": [
+            "[MOVED] character : (INSIDE kitchen) -> (INSIDE bedroom)",
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE bathroom_cabinet)",
+            "[MOVED] laptop : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON desk)",
+            "[MOVED] jacket : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] water_glass : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] keys : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "human_correction_log": [
+            "[MOVED] headphones : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "bookshelf",
+            "novel": "sofa",
+            "sweater": "closet",
+            "bag_of_chips": "fridge"
+        },
+        "raw_script": [
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <laptop> (24) <bookshelf> (14)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <desk> (13)",
+            "<char0> [putback] <textbook> (28) <desk> (13)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <jacket> (31) <sofa> (16)",
+            "<char0> [walk] <jacket> (31) (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <jacket> (31) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <bathroom_cabinet> (17)",
+            "<char0> [open] <bathroom_cabinet> (17)",
+            "<char0> [putin] <apple> (20) <bathroom_cabinet> (17)",
+            "<char0> [close] <bathroom_cabinet> (17)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <water_glass> (34) <bookshelf> (14)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <keys> (35) <bookshelf> (14)"
+        ]
+    },
+    {
+        "persona": "Child_Safe",
+        "history_log": [
+            "[MOVED] character : (INSIDE kitchen) -> (INSIDE bedroom)",
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE bathroom_cabinet)",
+            "[MOVED] laptop : (ON kitchen_table) -> (ON sofa)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] jacket : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] water_glass : (ON kitchen_table) -> (ON sink)",
+            "[MOVED] keys : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "human_correction_log": [
+            "[MOVED] headphones : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "bookshelf",
+            "novel": "sofa",
+            "sweater": "closet",
+            "bag_of_chips": "fridge"
+        },
+        "raw_script": [
+            "<char0> [walk] <laptop> (24)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <laptop> (24) <sofa> (16)",
+            "<char0> [walk] <textbook> (28)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <jacket> (31) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <apple> (20)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <bathroom_cabinet> (17)",
+            "<char0> [open] <bathroom_cabinet> (17)",
+            "<char0> [putin] <apple> (20) <bathroom_cabinet> (17)",
+            "<char0> [close] <bathroom_cabinet> (17)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <sink> (12)",
+            "<char0> [putback] <water_glass> (34) <sink> (12)",
+            "<char0> [walk] <keys> (35)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <keys> (35) <bookshelf> (14)"
+        ]
+    },
+    {
+        "persona": "Child_Safe",
+        "history_log": [
+            "[MOVED] character : (INSIDE kitchen) -> (INSIDE bedroom)",
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE bathroom_cabinet)",
+            "[MOVED] laptop : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON desk)",
+            "[MOVED] jacket : (ON kitchen_table) -> (ON closet)",
+            "[MOVED] water_glass : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] keys : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "human_correction_log": [
+            "[MOVED] headphones : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "bookshelf",
+            "novel": "sofa",
+            "sweater": "closet",
+            "bag_of_chips": "fridge"
+        },
+        "raw_script": [
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <laptop> (24) <bookshelf> (14)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <desk> (13)",
+            "<char0> [putback] <textbook> (28) <desk> (13)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [putback] <jacket> (31) <closet> (15)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <bathroom_cabinet> (17)",
+            "<char0> [open] <bathroom_cabinet> (17)",
+            "<char0> [putin] <apple> (20) <bathroom_cabinet> (17)",
+            "<char0> [close] <bathroom_cabinet> (17)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <water_glass> (34) <sofa> (16)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <water_glass> (34) <bookshelf> (14)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <keys> (35) <sofa> (16)",
+            "<char0> [walk] <keys> (35)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <keys> (35) <bookshelf> (14)"
+        ]
+    },
+    {
+        "persona": "Child_Safe",
+        "history_log": [
+            "[MOVED] character : (INSIDE kitchen) -> (INSIDE bedroom)",
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE bathroom_cabinet)",
+            "[MOVED] laptop : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON desk)",
+            "[MOVED] jacket : (ON kitchen_table) -> (ON closet)",
+            "[MOVED] water_glass : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] keys : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "human_correction_log": [
+            "[MOVED] headphones : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "bookshelf",
+            "novel": "sofa",
+            "sweater": "closet",
+            "bag_of_chips": "fridge"
+        },
+        "raw_script": [
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <laptop> (24) <bookshelf> (14)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <desk> (13)",
+            "<char0> [putback] <textbook> (28) <desk> (13)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [putback] <jacket> (31) <closet> (15)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <bathroom_cabinet> (17)",
+            "<char0> [open] <bathroom_cabinet> (17)",
+            "<char0> [putin] <apple> (20) <bathroom_cabinet> (17)",
+            "<char0> [close] <bathroom_cabinet> (17)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <water_glass> (34) <sofa> (16)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <water_glass> (34) <bookshelf> (14)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <keys> (35) <bookshelf> (14)"
+        ]
+    },
+    {
+        "persona": "Child_Safe",
+        "history_log": [
+            "[MOVED] character : (INSIDE kitchen) -> (INSIDE bedroom)",
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE bathroom_cabinet)",
+            "[MOVED] laptop : (ON kitchen_table) -> (ON sofa)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] jacket : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] water_glass : (ON kitchen_table) -> (ON sink)",
+            "[MOVED] keys : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "human_correction_log": [
+            "[MOVED] headphones : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "bookshelf",
+            "novel": "sofa",
+            "sweater": "closet",
+            "bag_of_chips": "fridge"
+        },
+        "raw_script": [
+            "<char0> [walk] <laptop> (24)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <laptop> (24) <sofa> (16)",
+            "<char0> [walk] <textbook> (28)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <textbook> (28) <bookshelf> (14)",
+            "<char0> [walk] <jacket> (31)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <jacket> (31) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <apple> (20)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <bathroom_cabinet> (17)",
+            "<char0> [open] <bathroom_cabinet> (17)",
+            "<char0> [putin] <apple> (20) <bathroom_cabinet> (17)",
+            "<char0> [close] <bathroom_cabinet> (17)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <sink> (12)",
+            "<char0> [putback] <water_glass> (34) <sink> (12)",
+            "<char0> [walk] <keys> (35)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <keys> (35) <bookshelf> (14)"
+        ]
+    },
+    {
+        "persona": "Child_Safe",
+        "history_log": [
+            "[MOVED] character : (INSIDE kitchen) -> (INSIDE bedroom)",
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE bathroom_cabinet)",
+            "[MOVED] laptop : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON desk)",
+            "[MOVED] jacket : (ON kitchen_table) -> (INSIDE closet)",
+            "[MOVED] water_glass : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] keys : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "human_correction_log": [
+            "[MOVED] headphones : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "bookshelf",
+            "novel": "sofa",
+            "sweater": "closet",
+            "bag_of_chips": "fridge"
+        },
+        "raw_script": [
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <laptop> (24) <bookshelf> (14)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <desk> (13)",
+            "<char0> [putback] <textbook> (28) <desk> (13)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [open] <closet> (15)",
+            "<char0> [putin] <jacket> (31) <closet> (15)",
+            "<char0> [close] <closet> (15)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <bathroom_cabinet> (17)",
+            "<char0> [open] <bathroom_cabinet> (17)",
+            "<char0> [putin] <apple> (20) <bathroom_cabinet> (17)",
+            "<char0> [close] <bathroom_cabinet> (17)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <water_glass> (34) <sofa> (16)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <water_glass> (34) <bookshelf> (14)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <keys> (35) <sofa> (16)",
+            "<char0> [walk] <keys> (35)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <keys> (35) <bookshelf> (14)"
+        ]
+    },
+    {
+        "persona": "Child_Safe",
+        "history_log": [
+            "[MOVED] character : (INSIDE kitchen) -> (INSIDE bedroom)",
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE bathroom_cabinet)",
+            "[MOVED] laptop : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON desk)",
+            "[MOVED] jacket : (ON kitchen_table) -> (ON closet)",
+            "[MOVED] water_glass : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] keys : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "human_correction_log": [
+            "[MOVED] headphones : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "bookshelf",
+            "novel": "sofa",
+            "sweater": "closet",
+            "bag_of_chips": "fridge"
+        },
+        "raw_script": [
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <laptop> (24) <bookshelf> (14)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <desk> (13)",
+            "<char0> [putback] <textbook> (28) <desk> (13)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [putback] <jacket> (31) <closet> (15)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <bathroom_cabinet> (17)",
+            "<char0> [open] <bathroom_cabinet> (17)",
+            "<char0> [putin] <apple> (20) <bathroom_cabinet> (17)",
+            "<char0> [close] <bathroom_cabinet> (17)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <water_glass> (34) <sofa> (16)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <water_glass> (34) <bookshelf> (14)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <keys> (35) <bookshelf> (14)"
+        ]
+    },
+    {
+        "persona": "Child_Safe",
+        "history_log": [
+            "[MOVED] character : (INSIDE kitchen) -> (INSIDE bedroom)",
+            "[MOVED] apple : (ON kitchen_table) -> (INSIDE bathroom_cabinet)",
+            "[MOVED] laptop : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] textbook : (ON kitchen_table) -> (ON desk)",
+            "[MOVED] jacket : (ON kitchen_table) -> (ON closet)",
+            "[MOVED] water_glass : (ON kitchen_table) -> (ON bookshelf)",
+            "[MOVED] keys : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "human_correction_log": [
+            "[MOVED] headphones : (ON kitchen_table) -> (ON bookshelf)"
+        ],
+        "novel_items": [
+            "power_bank",
+            "novel",
+            "sweater",
+            "bag_of_chips"
+        ],
+        "ground_truth_destinations": {
+            "power_bank": "bookshelf",
+            "novel": "sofa",
+            "sweater": "closet",
+            "bag_of_chips": "fridge"
+        },
+        "raw_script": [
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <laptop> (24)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <laptop> (24) <bookshelf> (14)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <textbook> (28)",
+            "<char0> [walk] <desk> (13)",
+            "<char0> [putback] <textbook> (28) <desk> (13)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <jacket> (31)",
+            "<char0> [walk] <closet> (15)",
+            "<char0> [putback] <jacket> (31) <closet> (15)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <apple> (20)",
+            "<char0> [walk] <bathroom_cabinet> (17)",
+            "<char0> [open] <bathroom_cabinet> (17)",
+            "<char0> [putin] <apple> (20) <bathroom_cabinet> (17)",
+            "<char0> [close] <bathroom_cabinet> (17)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <sofa> (16)",
+            "<char0> [putback] <water_glass> (34) <sofa> (16)",
+            "<char0> [walk] <water_glass> (34)",
+            "<char0> [grab] <water_glass> (34)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <water_glass> (34) <bookshelf> (14)",
+            "<char0> [walk] <kitchen_table> (11)",
+            "<char0> [grab] <keys> (35)",
+            "<char0> [walk] <bookshelf> (14)",
+            "<char0> [putback] <keys> (35) <bookshelf> (14)"
+        ]
+    }
+]
