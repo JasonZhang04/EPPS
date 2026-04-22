@@ -7,13 +7,17 @@ from src.api.thinking_machine import ThinkingMachineClient
 class RagHistoryAgent:
     def __init__(self, api_client: ThinkingMachineClient):
         self.api_client = api_client
+        self.full_history: List[str] = []
         
         prompt_path = os.path.join(os.path.dirname(__file__), '..', '..', 'prompts', 'baseline_prompts.yaml')
         with open(prompt_path, 'r') as f:
             self.prompts = yaml.safe_load(f)
 
-    def predict(self, instruction: str, novel_items: List[str], history_log: List[str]) -> Dict[str, str]:
-        history_text = "\n".join(history_log)
+    def update_memory(self, history_log: List[str]):
+        self.full_history.extend(history_log)
+
+    def predict(self, instruction: str, novel_items: List[str], history_log: List[str] = None) -> Dict[str, str]:
+        history_text = "\n".join(self.full_history)
         system_prompt = self.prompts['rag_history'].format(
             history_log=history_text,
             instruction=instruction,

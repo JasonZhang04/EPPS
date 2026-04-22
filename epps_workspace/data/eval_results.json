@@ -1,0 +1,4515 @@
+{
+    "ZeroShot": [
+        {
+            "persona": "Minimalist",
+            "turn": 1,
+            "prediction": {
+                "power_bank": "nightstand",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "trash_can"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 25.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 2,
+            "prediction": {
+                "power_bank": "nightstand",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "trash_can"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 25.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 3,
+            "prediction": {
+                "power_bank": "nightstand",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "trash_can"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 25.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 4,
+            "prediction": {
+                "power_bank": "nightstand",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "trash_can"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 25.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 5,
+            "prediction": {
+                "power_bank": "nightstand",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "trash_can"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 25.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 6,
+            "prediction": {
+                "power_bank": "nightstand",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "trash_can"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 25.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 7,
+            "prediction": {
+                "power_bank": "nightstand",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "trash_can"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 25.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 8,
+            "prediction": {
+                "power_bank": "nightstand",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "trash_can"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 25.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 9,
+            "prediction": {
+                "power_bank": "nightstand",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "trash_can"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 25.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 10,
+            "prediction": {
+                "power_bank": "nightstand",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "trash_can"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 25.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 1,
+            "prediction": {
+                "power_bank": "charging_station",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "kitchen_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 2,
+            "prediction": {
+                "power_bank": "charging_station",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "kitchen_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 3,
+            "prediction": {
+                "power_bank": "charging_station",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "kitchen_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 4,
+            "prediction": {
+                "power_bank": "charging_station",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "kitchen_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 5,
+            "prediction": {
+                "power_bank": "charging_station",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "kitchen_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 6,
+            "prediction": {
+                "power_bank": "charging_station",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "kitchen_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 7,
+            "prediction": {
+                "power_bank": "charging_station",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "kitchen_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 8,
+            "prediction": {
+                "power_bank": "charging_station",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "kitchen_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 9,
+            "prediction": {
+                "power_bank": "charging_station",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "kitchen_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 10,
+            "prediction": {
+                "power_bank": "charging_station",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "kitchen_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 1,
+            "prediction": {
+                "power_bank": "charging_station",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "trash_can"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 2,
+            "prediction": {
+                "power_bank": "charging_station",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "trash_can"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 3,
+            "prediction": {
+                "power_bank": "charging_station",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "trash_can"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 4,
+            "prediction": {
+                "power_bank": "charging_station",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "trash_can"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 5,
+            "prediction": {
+                "power_bank": "charging_station",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "trash_can"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 6,
+            "prediction": {
+                "power_bank": "charging_station",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "trash_can"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 7,
+            "prediction": {
+                "power_bank": "charging_station",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "trash_can"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 8,
+            "prediction": {
+                "power_bank": "charging_station",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "trash_can"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 9,
+            "prediction": {
+                "power_bank": "charging_station",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "trash_can"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 10,
+            "prediction": {
+                "power_bank": "charging_station",
+                "novel": "bookshelf",
+                "sweater": "wardrobe",
+                "bag_of_chips": "trash_can"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        }
+    ],
+    "RagHistory": [
+        {
+            "persona": "Minimalist",
+            "turn": 1,
+            "prediction": {
+                "power_bank": "INSIDE closet",
+                "novel": "ON bookshelf",
+                "sweater": "INSIDE closet",
+                "bag_of_chips": "INSIDE fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 2,
+            "prediction": {
+                "power_bank": "INSIDE closet",
+                "novel": "ON bookshelf",
+                "sweater": "INSIDE closet",
+                "bag_of_chips": "INSIDE fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 3,
+            "prediction": {
+                "power_bank": "INSIDE closet",
+                "novel": "ON bookshelf",
+                "sweater": "INSIDE closet",
+                "bag_of_chips": "INSIDE fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 4,
+            "prediction": {
+                "power_bank": "INSIDE closet",
+                "novel": "ON bookshelf",
+                "sweater": "INSIDE closet",
+                "bag_of_chips": "INSIDE fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 5,
+            "prediction": {
+                "power_bank": "INSIDE closet",
+                "novel": "ON bookshelf",
+                "sweater": "INSIDE closet",
+                "bag_of_chips": "INSIDE fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 6,
+            "prediction": {
+                "power_bank": "INSIDE closet",
+                "novel": "ON bookshelf",
+                "sweater": "INSIDE closet",
+                "bag_of_chips": "INSIDE fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 7,
+            "prediction": {
+                "power_bank": "INSIDE closet",
+                "novel": "ON bookshelf",
+                "sweater": "INSIDE closet",
+                "bag_of_chips": "INSIDE fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 8,
+            "prediction": {
+                "power_bank": "INSIDE closet",
+                "novel": "ON bookshelf",
+                "sweater": "INSIDE closet",
+                "bag_of_chips": "INSIDE fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 9,
+            "prediction": {
+                "power_bank": "INSIDE closet",
+                "novel": "ON bookshelf",
+                "sweater": "INSIDE closet",
+                "bag_of_chips": "INSIDE fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 10,
+            "prediction": {
+                "power_bank": "INSIDE closet",
+                "novel": "ON bookshelf",
+                "sweater": "INSIDE closet",
+                "bag_of_chips": "INSIDE fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 1,
+            "prediction": {
+                "power_bank": "ON desk",
+                "novel": "ON bookshelf",
+                "sweater": "INSIDE fridge",
+                "bag_of_chips": "INSIDE fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 2,
+            "prediction": {
+                "power_bank": "ON desk",
+                "novel": "ON bookshelf",
+                "sweater": "INSIDE fridge",
+                "bag_of_chips": "INSIDE fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 3,
+            "prediction": {
+                "power_bank": "ON desk",
+                "novel": "ON bookshelf",
+                "sweater": "INSIDE fridge",
+                "bag_of_chips": "INSIDE fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 4,
+            "prediction": {
+                "power_bank": "ON desk",
+                "novel": "ON bookshelf",
+                "sweater": "INSIDE fridge",
+                "bag_of_chips": "INSIDE fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 5,
+            "prediction": {
+                "power_bank": "ON desk",
+                "novel": "ON bookshelf",
+                "sweater": "INSIDE fridge",
+                "bag_of_chips": "INSIDE fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 6,
+            "prediction": {
+                "power_bank": "ON desk",
+                "novel": "ON bookshelf",
+                "sweater": "INSIDE fridge",
+                "bag_of_chips": "INSIDE fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 7,
+            "prediction": {
+                "power_bank": "ON desk",
+                "novel": "ON bookshelf",
+                "sweater": "ON bookshelf",
+                "bag_of_chips": "INSIDE fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 8,
+            "prediction": {
+                "power_bank": "ON desk",
+                "novel": "ON bookshelf",
+                "sweater": "ON bookshelf",
+                "bag_of_chips": "INSIDE fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 9,
+            "prediction": {
+                "power_bank": "ON desk",
+                "novel": "ON bookshelf",
+                "sweater": "INSIDE fridge",
+                "bag_of_chips": "INSIDE fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 10,
+            "prediction": {
+                "power_bank": "ON desk",
+                "novel": "ON bookshelf",
+                "sweater": "ON bookshelf",
+                "bag_of_chips": "INSIDE fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 1,
+            "prediction": {
+                "power_bank": "ON bookshelf",
+                "novel": "ON bookshelf",
+                "sweater": "ON closet",
+                "bag_of_chips": "INSIDE bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 2,
+            "prediction": {
+                "power_bank": "ON bookshelf",
+                "novel": "ON desk",
+                "sweater": "INSIDE closet",
+                "bag_of_chips": "INSIDE bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 3,
+            "prediction": {
+                "power_bank": "ON bookshelf",
+                "novel": "ON desk",
+                "sweater": "INSIDE closet",
+                "bag_of_chips": "INSIDE bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 4,
+            "prediction": {
+                "power_bank": "ON bookshelf",
+                "novel": "ON desk",
+                "sweater": "INSIDE closet",
+                "bag_of_chips": "INSIDE bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 5,
+            "prediction": {
+                "power_bank": "ON bookshelf",
+                "novel": "ON desk",
+                "sweater": "INSIDE closet",
+                "bag_of_chips": "INSIDE bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 6,
+            "prediction": {
+                "power_bank": "ON bookshelf",
+                "novel": "ON desk",
+                "sweater": "INSIDE closet",
+                "bag_of_chips": "INSIDE bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 7,
+            "prediction": {
+                "power_bank": "ON bookshelf",
+                "novel": "ON desk",
+                "sweater": "INSIDE closet",
+                "bag_of_chips": "INSIDE bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 8,
+            "prediction": {
+                "power_bank": "ON bookshelf",
+                "novel": "ON desk",
+                "sweater": "INSIDE closet",
+                "bag_of_chips": "INSIDE bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 9,
+            "prediction": {
+                "power_bank": "ON bookshelf",
+                "novel": "ON desk",
+                "sweater": "INSIDE closet",
+                "bag_of_chips": "INSIDE bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 10,
+            "prediction": {
+                "power_bank": "ON bookshelf",
+                "novel": "ON bookshelf",
+                "sweater": "INSIDE closet",
+                "bag_of_chips": "INSIDE bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 0.0
+        }
+    ],
+    "NaiveSummary": [
+        {
+            "persona": "Minimalist",
+            "turn": 1,
+            "prediction": {
+                "power_bank": "bathroom_cabinet",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 75.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 2,
+            "prediction": {
+                "power_bank": "bathroom cabinet",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 75.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 3,
+            "prediction": {
+                "power_bank": "bathroom cabinet",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 75.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 4,
+            "prediction": {
+                "power_bank": "bathroom cabinet",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 75.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 5,
+            "prediction": {
+                "power_bank": "bathroom cabinet",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 75.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 6,
+            "prediction": {
+                "power_bank": "closet",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 75.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 7,
+            "prediction": {
+                "power_bank": "closet",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 75.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 8,
+            "prediction": {
+                "power_bank": "closet",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 75.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 9,
+            "prediction": {
+                "power_bank": "closet",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 75.0
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 10,
+            "prediction": {
+                "power_bank": "closet",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 75.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 1,
+            "prediction": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 50.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 2,
+            "prediction": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "pantry"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 50.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 3,
+            "prediction": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "pantry"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 50.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 4,
+            "prediction": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "pantry"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 50.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 5,
+            "prediction": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "pantry"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 50.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 6,
+            "prediction": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "pantry"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 50.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 7,
+            "prediction": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "pantry"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 50.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 8,
+            "prediction": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "pantry"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 50.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 9,
+            "prediction": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "pantry"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 50.0
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 10,
+            "prediction": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "pantry"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 50.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 1,
+            "prediction": {
+                "power_bank": "bookshelf",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 50.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 2,
+            "prediction": {
+                "power_bank": "bookshelf",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 50.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 3,
+            "prediction": {
+                "power_bank": "bookshelf",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 50.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 4,
+            "prediction": {
+                "power_bank": "bookshelf",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 50.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 5,
+            "prediction": {
+                "power_bank": "bookshelf",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 50.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 6,
+            "prediction": {
+                "power_bank": "bookshelf",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 50.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 7,
+            "prediction": {
+                "power_bank": "bookshelf",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 50.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 8,
+            "prediction": {
+                "power_bank": "bookshelf",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 50.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 9,
+            "prediction": {
+                "power_bank": "bookshelf",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 50.0
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 10,
+            "prediction": {
+                "power_bank": "bookshelf",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 50.0
+        }
+    ],
+    "EPPS": [
+        {
+            "persona": "Minimalist",
+            "turn": 1,
+            "prediction": {
+                "power_bank": "closet",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 75.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "fridge",
+                        "confidence": 0.8,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "closet",
+                        "confidence": 0.7,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "bookshelf",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    },
+                    "Outerwear": {
+                        "destination": "closet",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        },
+                        "member_examples": [
+                            "jacket"
+                        ]
+                    },
+                    "Hygiene_Products": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.6,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        },
+                        "member_examples": [
+                            "keys"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "water_glass": {
+                        "destination": "fridge",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        }
+                    },
+                    "keys": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        }
+                    }
+                },
+                "global_noise_items": [
+                    "water_glass",
+                    "keys",
+                    "character"
+                ]
+            }
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 2,
+            "prediction": {
+                "power_bank": "closet",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 75.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "fridge",
+                        "confidence": 0.8,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 2
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "closet",
+                        "confidence": 0.7,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 2
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "bookshelf",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 2
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    },
+                    "Outerwear": {
+                        "destination": "closet",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 2
+                        },
+                        "member_examples": [
+                            "jacket"
+                        ]
+                    },
+                    "Hygiene_Products": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.6,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 2
+                        },
+                        "member_examples": [
+                            "keys"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "water_glass": {
+                        "destination": "fridge",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        }
+                    },
+                    "keys": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 2
+                        }
+                    },
+                    "laptop": {
+                        "destination": "closet",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 1
+                        }
+                    }
+                },
+                "global_noise_items": [
+                    "water_glass",
+                    "keys",
+                    "character"
+                ]
+            }
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 3,
+            "prediction": {
+                "power_bank": "closet",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 75.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "fridge",
+                        "confidence": 0.85,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 3
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "closet",
+                        "confidence": 0.75,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 3
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "bookshelf",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 3
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    },
+                    "Outerwear": {
+                        "destination": "closet",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 3
+                        },
+                        "member_examples": [
+                            "jacket"
+                        ]
+                    },
+                    "Hygiene_Products": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.65,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 3
+                        },
+                        "member_examples": [
+                            "keys"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "water_glass": {
+                        "destination": "fridge",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        }
+                    },
+                    "keys": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 3
+                        }
+                    },
+                    "laptop": {
+                        "destination": "closet",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 1
+                        }
+                    }
+                },
+                "global_noise_items": [
+                    "water_glass",
+                    "keys",
+                    "character"
+                ]
+            }
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 4,
+            "prediction": {
+                "power_bank": "closet",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 75.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "fridge",
+                        "confidence": 0.85,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 4
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "closet",
+                        "confidence": 0.75,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 4
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "bookshelf",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 4
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    },
+                    "Outerwear": {
+                        "destination": "closet",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 4
+                        },
+                        "member_examples": [
+                            "jacket"
+                        ]
+                    },
+                    "Hygiene_Products": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.65,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 4
+                        },
+                        "member_examples": [
+                            "keys"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "water_glass": {
+                        "destination": "fridge",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        }
+                    },
+                    "keys": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 4
+                        }
+                    },
+                    "laptop": {
+                        "destination": "closet",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 2
+                        }
+                    }
+                },
+                "global_noise_items": [
+                    "water_glass",
+                    "keys",
+                    "character"
+                ]
+            }
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 5,
+            "prediction": {
+                "power_bank": "closet",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 75.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "fridge",
+                        "confidence": 0.85,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 5
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "closet",
+                        "confidence": 0.75,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 5
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "bookshelf",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 5
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    },
+                    "Outerwear": {
+                        "destination": "closet",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 5
+                        },
+                        "member_examples": [
+                            "jacket"
+                        ]
+                    },
+                    "Hygiene_Products": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.65,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 5
+                        },
+                        "member_examples": [
+                            "keys"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "water_glass": {
+                        "destination": "fridge",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        }
+                    },
+                    "keys": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 5
+                        }
+                    },
+                    "laptop": {
+                        "destination": "closet",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 3
+                        }
+                    }
+                },
+                "global_noise_items": [
+                    "water_glass",
+                    "keys",
+                    "character"
+                ]
+            }
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 6,
+            "prediction": {
+                "power_bank": "closet",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 75.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "fridge",
+                        "confidence": 0.85,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 6
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "closet",
+                        "confidence": 0.75,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 6
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "bookshelf",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 6
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    },
+                    "Outerwear": {
+                        "destination": "closet",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 6
+                        },
+                        "member_examples": [
+                            "jacket"
+                        ]
+                    },
+                    "Hygiene_Products": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.65,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 6
+                        },
+                        "member_examples": [
+                            "keys"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "water_glass": {
+                        "destination": "fridge",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        }
+                    },
+                    "keys": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 6
+                        }
+                    },
+                    "laptop": {
+                        "destination": "closet",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 4
+                        }
+                    }
+                },
+                "global_noise_items": [
+                    "water_glass",
+                    "keys",
+                    "character"
+                ]
+            }
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 7,
+            "prediction": {
+                "power_bank": "closet",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 75.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "fridge",
+                        "confidence": 0.85,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 7
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "closet",
+                        "confidence": 0.75,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 7
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "bookshelf",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 7
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    },
+                    "Outerwear": {
+                        "destination": "closet",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 7
+                        },
+                        "member_examples": [
+                            "jacket"
+                        ]
+                    },
+                    "Hygiene_Products": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.65,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 6
+                        },
+                        "member_examples": [
+                            "keys"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "water_glass": {
+                        "destination": "fridge",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        }
+                    },
+                    "keys": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 7
+                        }
+                    },
+                    "laptop": {
+                        "destination": "closet",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 5
+                        }
+                    }
+                },
+                "global_noise_items": [
+                    "water_glass",
+                    "keys",
+                    "character"
+                ]
+            }
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 8,
+            "prediction": {
+                "power_bank": "closet",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 75.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "fridge",
+                        "confidence": 0.85,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 8
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "closet",
+                        "confidence": 0.75,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 8
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "bookshelf",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 8
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    },
+                    "Outerwear": {
+                        "destination": "closet",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 8
+                        },
+                        "member_examples": [
+                            "jacket"
+                        ]
+                    },
+                    "Hygiene_Products": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.65,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 7
+                        },
+                        "member_examples": [
+                            "keys"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "water_glass": {
+                        "destination": "fridge",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        }
+                    },
+                    "keys": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 8
+                        }
+                    },
+                    "laptop": {
+                        "destination": "closet",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 6
+                        }
+                    }
+                },
+                "global_noise_items": [
+                    "water_glass",
+                    "keys",
+                    "character"
+                ]
+            }
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 9,
+            "prediction": {
+                "power_bank": "closet",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 75.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "fridge",
+                        "confidence": 0.85,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 9
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "closet",
+                        "confidence": 0.75,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 9
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "bookshelf",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 9
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    },
+                    "Outerwear": {
+                        "destination": "closet",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 9
+                        },
+                        "member_examples": [
+                            "jacket"
+                        ]
+                    },
+                    "Hygiene_Products": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.65,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 8
+                        },
+                        "member_examples": [
+                            "keys"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "water_glass": {
+                        "destination": "fridge",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        }
+                    },
+                    "keys": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 9
+                        }
+                    },
+                    "laptop": {
+                        "destination": "closet",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 7
+                        }
+                    }
+                },
+                "global_noise_items": [
+                    "water_glass",
+                    "keys",
+                    "character"
+                ]
+            }
+        },
+        {
+            "persona": "Minimalist",
+            "turn": 10,
+            "prediction": {
+                "power_bank": "closet",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 75.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "fridge",
+                        "confidence": 0.85,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 10
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "closet",
+                        "confidence": 0.75,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 10
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "bookshelf",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 10
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    },
+                    "Outerwear": {
+                        "destination": "closet",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 10
+                        },
+                        "member_examples": [
+                            "jacket"
+                        ]
+                    },
+                    "Hygiene_Products": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.65,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 8
+                        },
+                        "member_examples": [
+                            "keys"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "water_glass": {
+                        "destination": "fridge",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        }
+                    },
+                    "keys": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 10
+                        }
+                    },
+                    "laptop": {
+                        "destination": "closet",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 8
+                        }
+                    }
+                },
+                "global_noise_items": [
+                    "water_glass",
+                    "keys",
+                    "character"
+                ]
+            }
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 1,
+            "prediction": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "bookshelf",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 25.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "fridge",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "desk",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "bookshelf",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    }
+                },
+                "item_overrides": {},
+                "global_noise_items": []
+            }
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 2,
+            "prediction": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "fridge",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 25.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "fridge",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 2
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "desk",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 2
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "bookshelf",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 2
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "textbook": {
+                        "destination": "bookshelf",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 1
+                        }
+                    }
+                },
+                "global_noise_items": []
+            }
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 3,
+            "prediction": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "fridge",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 25.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "fridge",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 3
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "desk",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 3
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "bookshelf",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 3
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "textbook": {
+                        "destination": "bookshelf",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 1
+                        }
+                    }
+                },
+                "global_noise_items": []
+            }
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 4,
+            "prediction": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "bookshelf",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 25.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "fridge",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 4
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "desk",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 4
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "bookshelf",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 4
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "textbook": {
+                        "destination": "bookshelf",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 1
+                        }
+                    }
+                },
+                "global_noise_items": []
+            }
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 5,
+            "prediction": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "bookshelf",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 25.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "fridge",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 5
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "desk",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 5
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "bookshelf",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 5
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "textbook": {
+                        "destination": "bookshelf",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 1
+                        }
+                    }
+                },
+                "global_noise_items": []
+            }
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 6,
+            "prediction": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "bookshelf",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 25.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "fridge",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 6
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "desk",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 6
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "bookshelf",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 6
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "textbook": {
+                        "destination": "bookshelf",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 1
+                        }
+                    }
+                },
+                "global_noise_items": []
+            }
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 7,
+            "prediction": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "bookshelf",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 25.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "fridge",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 7
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "desk",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 7
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "bookshelf",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 7
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "textbook": {
+                        "destination": "bookshelf",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 1
+                        }
+                    }
+                },
+                "global_noise_items": []
+            }
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 8,
+            "prediction": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "bookshelf",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 25.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "fridge",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 8
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "desk",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 8
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "bookshelf",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 8
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "textbook": {
+                        "destination": "bookshelf",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 1
+                        }
+                    }
+                },
+                "global_noise_items": []
+            }
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 9,
+            "prediction": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "bookshelf",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 25.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "fridge",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 9
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "desk",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 9
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "bookshelf",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 9
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "textbook": {
+                        "destination": "bookshelf",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 1
+                        }
+                    }
+                },
+                "global_noise_items": []
+            }
+        },
+        {
+            "persona": "Functionalist",
+            "turn": 10,
+            "prediction": {
+                "power_bank": "desk",
+                "novel": "bookshelf",
+                "sweater": "bookshelf",
+                "bag_of_chips": "fridge"
+            },
+            "ground_truth": {
+                "power_bank": "desk",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen_table"
+            },
+            "pfs": 25.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "fridge",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 10
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "desk",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 10
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "bookshelf",
+                        "confidence": 1.0,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 10
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "textbook": {
+                        "destination": "bookshelf",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 1
+                        }
+                    }
+                },
+                "global_noise_items": []
+            }
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 1,
+            "prediction": {
+                "power_bank": "bookshelf",
+                "novel": "desk",
+                "sweater": "closet",
+                "bag_of_chips": "kitchen"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 50.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "kitchen",
+                        "confidence": 0.8,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "bookshelf",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "desk",
+                        "confidence": 0.95,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    },
+                    "Outerwear": {
+                        "destination": "closet",
+                        "confidence": 0.95,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        },
+                        "member_examples": [
+                            "jacket"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "apple": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.6,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        }
+                    }
+                },
+                "global_noise_items": [
+                    "water_glass",
+                    "keys"
+                ]
+            }
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 2,
+            "prediction": {
+                "power_bank": "bookshelf",
+                "novel": "desk",
+                "sweater": "closet",
+                "bag_of_chips": "bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 50.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.85,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 2
+                        },
+                        "member_examples": [
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "bookshelf",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 2
+                        },
+                        "member_examples": [
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "desk",
+                        "confidence": 0.95,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 2
+                        },
+                        "member_examples": [
+                            "textbook"
+                        ]
+                    },
+                    "Outerwear": {
+                        "destination": "closet",
+                        "confidence": 0.95,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 2
+                        },
+                        "member_examples": [
+                            "jacket"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "apple": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.6,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 2
+                        }
+                    },
+                    "headphones": {
+                        "destination": "bookshelf",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 1
+                        }
+                    }
+                },
+                "global_noise_items": [
+                    "water_glass",
+                    "keys"
+                ]
+            }
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 3,
+            "prediction": {
+                "power_bank": "bookshelf",
+                "novel": "desk",
+                "sweater": "closet",
+                "bag_of_chips": "bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 50.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.85,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 3
+                        },
+                        "member_examples": [
+                            "apple",
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "bookshelf",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 3
+                        },
+                        "member_examples": [
+                            "laptop",
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "desk",
+                        "confidence": 0.95,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 3
+                        },
+                        "member_examples": [
+                            "textbook",
+                            "textbook"
+                        ]
+                    },
+                    "Outerwear": {
+                        "destination": "closet",
+                        "confidence": 0.95,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 3
+                        },
+                        "member_examples": [
+                            "jacket",
+                            "jacket"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "apple": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.6,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 3
+                        }
+                    },
+                    "headphones": {
+                        "destination": "bookshelf",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 1
+                        }
+                    }
+                },
+                "global_noise_items": [
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys"
+                ]
+            }
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 4,
+            "prediction": {
+                "power_bank": "bookshelf",
+                "novel": "desk",
+                "sweater": "closet",
+                "bag_of_chips": "bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 50.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.85,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 4
+                        },
+                        "member_examples": [
+                            "apple",
+                            "apple",
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "bookshelf",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 4
+                        },
+                        "member_examples": [
+                            "laptop",
+                            "laptop",
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "desk",
+                        "confidence": 0.95,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 4
+                        },
+                        "member_examples": [
+                            "textbook",
+                            "textbook",
+                            "textbook"
+                        ]
+                    },
+                    "Outerwear": {
+                        "destination": "closet",
+                        "confidence": 0.95,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 4
+                        },
+                        "member_examples": [
+                            "jacket",
+                            "jacket",
+                            "jacket"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "apple": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.6,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 4
+                        }
+                    },
+                    "headphones": {
+                        "destination": "bookshelf",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 1
+                        }
+                    },
+                    "laptop": {
+                        "destination": "sofa",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        }
+                    },
+                    "textbook": {
+                        "destination": "bookshelf",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        }
+                    },
+                    "keys": {
+                        "destination": "bookshelf",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        }
+                    }
+                },
+                "global_noise_items": [
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys"
+                ]
+            }
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 5,
+            "prediction": {
+                "power_bank": "bookshelf",
+                "novel": "desk",
+                "sweater": "closet",
+                "bag_of_chips": "bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 50.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.85,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 5
+                        },
+                        "member_examples": [
+                            "apple",
+                            "apple",
+                            "apple",
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "bookshelf",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 5
+                        },
+                        "member_examples": [
+                            "laptop",
+                            "laptop",
+                            "laptop",
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "desk",
+                        "confidence": 0.95,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 5
+                        },
+                        "member_examples": [
+                            "textbook",
+                            "textbook",
+                            "textbook",
+                            "textbook"
+                        ]
+                    },
+                    "Outerwear": {
+                        "destination": "closet",
+                        "confidence": 0.95,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 5
+                        },
+                        "member_examples": [
+                            "jacket",
+                            "jacket",
+                            "jacket",
+                            "jacket"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "apple": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.6,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 5
+                        }
+                    },
+                    "headphones": {
+                        "destination": "bookshelf",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 1
+                        }
+                    },
+                    "laptop": {
+                        "destination": "sofa",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        }
+                    },
+                    "textbook": {
+                        "destination": "bookshelf",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        }
+                    },
+                    "keys": {
+                        "destination": "bookshelf",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 2
+                        }
+                    }
+                },
+                "global_noise_items": [
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys"
+                ]
+            }
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 6,
+            "prediction": {
+                "power_bank": "bookshelf",
+                "novel": "desk",
+                "sweater": "closet",
+                "bag_of_chips": "bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 50.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.85,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 6
+                        },
+                        "member_examples": [
+                            "apple",
+                            "apple",
+                            "apple",
+                            "apple",
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "bookshelf",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 6
+                        },
+                        "member_examples": [
+                            "laptop",
+                            "laptop",
+                            "laptop",
+                            "laptop",
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "desk",
+                        "confidence": 0.95,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 6
+                        },
+                        "member_examples": [
+                            "textbook",
+                            "textbook",
+                            "textbook",
+                            "textbook",
+                            "textbook"
+                        ]
+                    },
+                    "Outerwear": {
+                        "destination": "closet",
+                        "confidence": 0.95,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 6
+                        },
+                        "member_examples": [
+                            "jacket",
+                            "jacket",
+                            "jacket",
+                            "jacket",
+                            "jacket"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "apple": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.6,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 6
+                        }
+                    },
+                    "headphones": {
+                        "destination": "bookshelf",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 1
+                        }
+                    },
+                    "laptop": {
+                        "destination": "sofa",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        }
+                    },
+                    "textbook": {
+                        "destination": "bookshelf",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        }
+                    },
+                    "keys": {
+                        "destination": "bookshelf",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 3
+                        }
+                    }
+                },
+                "global_noise_items": [
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys"
+                ]
+            }
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 7,
+            "prediction": {
+                "power_bank": "bookshelf",
+                "novel": "desk",
+                "sweater": "closet",
+                "bag_of_chips": "bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 50.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.85,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 7
+                        },
+                        "member_examples": [
+                            "apple",
+                            "apple",
+                            "apple",
+                            "apple",
+                            "apple",
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "bookshelf",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 6
+                        },
+                        "member_examples": [
+                            "laptop",
+                            "laptop",
+                            "laptop",
+                            "laptop",
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "desk",
+                        "confidence": 0.95,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 7
+                        },
+                        "member_examples": [
+                            "textbook",
+                            "textbook",
+                            "textbook",
+                            "textbook",
+                            "textbook",
+                            "textbook"
+                        ]
+                    },
+                    "Outerwear": {
+                        "destination": "closet",
+                        "confidence": 0.95,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 7
+                        },
+                        "member_examples": [
+                            "jacket",
+                            "jacket",
+                            "jacket",
+                            "jacket",
+                            "jacket",
+                            "jacket"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "apple": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.6,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 7
+                        }
+                    },
+                    "headphones": {
+                        "destination": "bookshelf",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 1
+                        }
+                    },
+                    "laptop": {
+                        "destination": "sofa",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 2
+                        }
+                    },
+                    "textbook": {
+                        "destination": "bookshelf",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 2
+                        }
+                    },
+                    "keys": {
+                        "destination": "bookshelf",
+                        "confidence": 0.5,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 4
+                        }
+                    }
+                },
+                "global_noise_items": [
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys"
+                ]
+            }
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 8,
+            "prediction": {
+                "power_bank": "bookshelf",
+                "novel": "desk",
+                "sweater": "closet",
+                "bag_of_chips": "bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 50.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.875,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 8
+                        },
+                        "member_examples": [
+                            "apple",
+                            "apple",
+                            "apple",
+                            "apple",
+                            "apple",
+                            "apple",
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "bookshelf",
+                        "confidence": 0.9167,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 7
+                        },
+                        "member_examples": [
+                            "laptop",
+                            "laptop",
+                            "laptop",
+                            "laptop",
+                            "laptop",
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "desk",
+                        "confidence": 0.9643,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 8
+                        },
+                        "member_examples": [
+                            "textbook",
+                            "textbook",
+                            "textbook",
+                            "textbook",
+                            "textbook",
+                            "textbook",
+                            "textbook"
+                        ]
+                    },
+                    "Outerwear": {
+                        "destination": "closet",
+                        "confidence": 0.9643,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 8
+                        },
+                        "member_examples": [
+                            "jacket",
+                            "jacket",
+                            "jacket",
+                            "jacket",
+                            "jacket",
+                            "jacket",
+                            "jacket"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "apple": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.6364,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 8
+                        }
+                    },
+                    "headphones": {
+                        "destination": "bookshelf",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 1
+                        }
+                    },
+                    "laptop": {
+                        "destination": "bookshelf",
+                        "confidence": 0.6,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 3
+                        }
+                    },
+                    "textbook": {
+                        "destination": "desk",
+                        "confidence": 0.6,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 3
+                        }
+                    },
+                    "keys": {
+                        "destination": "bookshelf",
+                        "confidence": 0.5714,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 5
+                        }
+                    }
+                },
+                "global_noise_items": [
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys"
+                ]
+            }
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 9,
+            "prediction": {
+                "power_bank": "bookshelf",
+                "novel": "desk",
+                "sweater": "closet",
+                "bag_of_chips": "bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 50.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.8889,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 9
+                        },
+                        "member_examples": [
+                            "apple",
+                            "apple",
+                            "apple",
+                            "apple",
+                            "apple",
+                            "apple",
+                            "apple",
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "bookshelf",
+                        "confidence": 0.9286,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 8
+                        },
+                        "member_examples": [
+                            "laptop",
+                            "laptop",
+                            "laptop",
+                            "laptop",
+                            "laptop",
+                            "laptop",
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "desk",
+                        "confidence": 0.9722,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 9
+                        },
+                        "member_examples": [
+                            "textbook",
+                            "textbook",
+                            "textbook",
+                            "textbook",
+                            "textbook",
+                            "textbook",
+                            "textbook",
+                            "textbook"
+                        ]
+                    },
+                    "Outerwear": {
+                        "destination": "closet",
+                        "confidence": 0.9722,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 9
+                        },
+                        "member_examples": [
+                            "jacket",
+                            "jacket",
+                            "jacket",
+                            "jacket",
+                            "jacket",
+                            "jacket",
+                            "jacket",
+                            "jacket"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "apple": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.6667,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 9
+                        }
+                    },
+                    "headphones": {
+                        "destination": "bookshelf",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 1
+                        }
+                    },
+                    "laptop": {
+                        "destination": "bookshelf",
+                        "confidence": 0.6667,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 4
+                        }
+                    },
+                    "textbook": {
+                        "destination": "desk",
+                        "confidence": 0.6667,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 4
+                        }
+                    },
+                    "keys": {
+                        "destination": "bookshelf",
+                        "confidence": 0.6,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 6
+                        }
+                    }
+                },
+                "global_noise_items": [
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys"
+                ]
+            }
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 10,
+            "prediction": {
+                "power_bank": "bookshelf",
+                "novel": "desk",
+                "sweater": "closet",
+                "bag_of_chips": "bathroom_cabinet"
+            },
+            "ground_truth": {
+                "power_bank": "bookshelf",
+                "novel": "sofa",
+                "sweater": "closet",
+                "bag_of_chips": "fridge"
+            },
+            "pfs": 50.0,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Perishable_Food": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 10
+                        },
+                        "member_examples": [
+                            "apple",
+                            "apple",
+                            "apple",
+                            "apple",
+                            "apple",
+                            "apple",
+                            "apple",
+                            "apple",
+                            "apple"
+                        ]
+                    },
+                    "Electronics": {
+                        "destination": "bookshelf",
+                        "confidence": 0.9333,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 9
+                        },
+                        "member_examples": [
+                            "laptop",
+                            "laptop",
+                            "laptop",
+                            "laptop",
+                            "laptop",
+                            "laptop",
+                            "laptop",
+                            "laptop"
+                        ]
+                    },
+                    "Study_Materials": {
+                        "destination": "desk",
+                        "confidence": 0.975,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 10
+                        },
+                        "member_examples": [
+                            "textbook",
+                            "textbook",
+                            "textbook",
+                            "textbook",
+                            "textbook",
+                            "textbook",
+                            "textbook",
+                            "textbook",
+                            "textbook"
+                        ]
+                    },
+                    "Outerwear": {
+                        "destination": "closet",
+                        "confidence": 0.975,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 10
+                        },
+                        "member_examples": [
+                            "jacket",
+                            "jacket",
+                            "jacket",
+                            "jacket",
+                            "jacket",
+                            "jacket",
+                            "jacket",
+                            "jacket",
+                            "jacket"
+                        ]
+                    }
+                },
+                "item_overrides": {
+                    "apple": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.7,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 10
+                        }
+                    },
+                    "headphones": {
+                        "destination": "bookshelf",
+                        "confidence": 0.3,
+                        "source": {
+                            "layer": "L2_correction",
+                            "observation_count": 1
+                        }
+                    },
+                    "laptop": {
+                        "destination": "bookshelf",
+                        "confidence": 0.7,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 5
+                        }
+                    },
+                    "textbook": {
+                        "destination": "desk",
+                        "confidence": 0.7,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 5
+                        }
+                    },
+                    "keys": {
+                        "destination": "bookshelf",
+                        "confidence": 0.6364,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 7
+                        }
+                    }
+                },
+                "global_noise_items": [
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys",
+                    "water_glass",
+                    "keys"
+                ]
+            }
+        }
+    ]
+}

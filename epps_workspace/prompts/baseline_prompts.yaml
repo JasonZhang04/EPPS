@@ -1,7 +1,7 @@
 zero_shot: |
   You are an Execution Planner. The user issued command: "{instruction}".
   Assign a valid receptacle destination for each novel item: {novel_items}.
-  Rely on your standard pre-trained societal norms. Output a JSON dict of {item_name: destination}.
+  Rely on your standard pre-trained societal norms. Output a JSON dict mapping the item names to their destinations.
   
 rag_history: |
   Analyze this raw history log of past actions to figure out where the user likes things:

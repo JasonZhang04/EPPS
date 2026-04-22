@@ -19,26 +19,33 @@ class ThinkingMachineClient:
         if not api_key:
             raise ValueError("TINKER_API_KEY environment variable is not set. Please set it before running the pipeline.")
 
-        self.default_model = "Qwen/Qwen3-8B"
-        client = tinker.ServiceClient(api_key=api_key)
-
-        # Initialize sampling client and tokenizer once, synchronously, before any
-        # event loop is running — avoids the sync-in-async warning and the per-call
-        # tokenizer re-download overhead.
-        self._sampling_client = client.create_sampling_client(base_model=self.default_model)
-        training_client = client.create_lora_training_client(base_model=self.default_model, rank=1)
-        self._tokenizer = training_client.get_tokenizer()
+        self.client = tinker.ServiceClient(api_key=api_key)
+        # Upgraded to the Instruct VL model for strict Pydantic JSON adherence
+        # self.default_model = "Qwen/Qwen3-VL-30B-A3B-Instruct"
+        self.default_model = "Qwen/Qwen3-235B-A22B-Instruct-2507"
 
     def query(self, messages: List[Dict[str, str]], temperature: float = 0.0, model: str = None) -> str:
+        """
+        Synchronous wrapper. All sync Tinker initializations must happen here to avoid deadlocks.
+        """
+        if model is None:
+            model = self.default_model
+
         prompt_text = ""
         for msg in messages:
             prompt_text += f"<|im_start|>{msg['role']}\n{msg['content']}<|im_end|>\n"
         prompt_text += "<|im_start|>assistant\n"
 
-        return asyncio.run(self._async_query(prompt_text, temperature))
+        # MOVED SYNCHRONOUS CALLS OUT OF ASYNC CONTEXT
+        training_client = self.client.create_lora_training_client(base_model=model, rank=1)
+        tokenizer = training_client.get_tokenizer()
+        sampling_client = self.client.create_sampling_client(base_model=model)
 
-    async def _async_query(self, prompt_text: str, temperature: float) -> str:
-        tokens = self._tokenizer.encode(prompt_text)
+        return asyncio.run(self._async_query(prompt_text, temperature, sampling_client, tokenizer))
+
+    async def _async_query(self, prompt_text: str, temperature: float, sampling_client, tokenizer) -> str:
+        # Tokenize prompt
+        tokens = tokenizer.encode(prompt_text)
         prompt = types.ModelInput.from_ints(tokens=tokens)
 
         params = types.SamplingParams(
@@ -47,11 +54,17 @@ class ThinkingMachineClient:
             stop=["<|im_end|>"]
         )
 
-        result = await self._sampling_client.sample_async(
+        # Only the actual sampling is awaited
+        result = await sampling_client.sample_async(
             prompt=prompt,
             num_samples=1,
             sampling_params=params
         )
 
         response_seq = result.sequences[0]
-        return self._tokenizer.decode(response_seq.tokens).strip()
+        response_text = tokenizer.decode(response_seq.tokens).strip()
+
+        # Scrub the stop token so it doesn't break JSON parsing
+        response_text = response_text.replace("<|im_end|>", "").strip()
+
+        return response_text
