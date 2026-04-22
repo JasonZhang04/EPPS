@@ -8,7 +8,7 @@ from src.core_epps.epps_agent import EPPSAgent
 from src.baselines.zero_shot_agent import ZeroShotAgent
 from src.baselines.rag_history_agent import RagHistoryAgent
 from src.baselines.naive_summary_agent import NaiveSummaryAgent
-from src.eval.metrics import calculate_pfs
+from metrics import calculate_pfs
 
 def run_evaluation(dataset_path: str = "eval_dataset.json"):
     # Fallback to data folder if not in root
