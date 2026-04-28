@@ -72,7 +72,7 @@ def _normalize_destination(dest: str) -> str:
     2. Models add the relation word: "on the desk", "inside the closet".
     """
     dest = dest.strip().lower()
-    # Remove leading article if present ("on the desk" → "on desk")
+    # Remove leading article if present ("on the desk" -> "on desk")
     dest = dest.replace(" the ", " ")
     for prefix in ("on ", "inside ", "held_by ", "on_floor_in "):
         if dest.startswith(prefix):
@@ -99,7 +99,7 @@ def calculate_pfs(
     """
     Pragmatic Faithfulness Score (PFS).
 
-    PFS = (correct_items / total_novel_items) × 100
+    PFS = (correct_items / total_novel_items) x 100
 
     Args:
         use_synonyms: If False (default), exact canonical match required.
@@ -108,12 +108,12 @@ def calculate_pfs(
             use the strict version as the primary metric in the paper.
 
     Normalization applied regardless of use_synonyms:
-    - Strips relational prefixes: "ON desk" → "desk"
-    - Strips leading articles: "on the desk" → "desk"
+    - Strips relational prefixes: "ON desk" -> "desk"
+    - Strips leading articles: "on the desk" -> "desk"
     - Lowercases and trims whitespace
 
     With use_synonyms=True, also maps synonyms to canonical names:
-    - "wardrobe" → "closet", "refrigerator" → "fridge", etc.
+    - "wardrobe" -> "closet", "refrigerator" -> "fridge", etc.
     """
     if not novel_items:
         return 0.0
