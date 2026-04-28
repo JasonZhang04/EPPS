@@ -40,8 +40,9 @@ class EPPSAgent:
             
             if item in self.cgm_state.item_overrides:
                 old_conf = self.cgm_state.item_overrides[item].confidence
-                # alpha = 0.7, w = 0.3 (Layer 2 penalty)
-                new_conf = (0.7 * old_conf) + (0.3 * 0.3 * 1.0) 
+                # Each human correction is strong positive evidence: +0.2 per confirmation,
+                # capped at 0.95 to avoid over-certainty. After 4 corrections: 0.3→0.5→0.7→0.9→0.95.
+                new_conf = min(old_conf + 0.2, 0.95)
                 self.cgm_state.item_overrides[item].confidence = new_conf
                 self.cgm_state.item_overrides[item].destination = dest
             else:
