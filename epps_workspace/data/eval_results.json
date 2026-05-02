@@ -679,6 +679,23 @@
             },
             "pfs": 0.0,
             "pfs_relaxed": 33.33333333333333
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 1,
+            "chore_type": "Morning Routine",
+            "prediction": {
+                "wallet": "bedside drawer",
+                "umbrella": "front door umbrella stand",
+                "hand_cream": "bathroom cabinet"
+            },
+            "ground_truth": {
+                "wallet": "bookshelf",
+                "umbrella": "closet",
+                "hand_cream": "bathroom_cabinet"
+            },
+            "pfs": 0.0,
+            "pfs_relaxed": 0.0
         }
     ],
     "RagHistory": [
@@ -1361,6 +1378,23 @@
             },
             "pfs": 33.33333333333333,
             "pfs_relaxed": 33.33333333333333
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 1,
+            "chore_type": "Morning Routine",
+            "prediction": {
+                "wallet": "INSIDE bathroom_cabinet",
+                "umbrella": "INSIDE closet",
+                "hand_cream": "INSIDE bathroom_cabinet"
+            },
+            "ground_truth": {
+                "wallet": "bookshelf",
+                "umbrella": "closet",
+                "hand_cream": "bathroom_cabinet"
+            },
+            "pfs": 66.66666666666666,
+            "pfs_relaxed": 66.66666666666666
         }
     ],
     "NaiveSummary": [
@@ -2040,6 +2074,23 @@
                 "sweater": "closet",
                 "backpack": "kitchen_table",
                 "magazine": "sofa"
+            },
+            "pfs": 33.33333333333333,
+            "pfs_relaxed": 33.33333333333333
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 1,
+            "chore_type": "Morning Routine",
+            "prediction": {
+                "wallet": "bathroom cabinet",
+                "umbrella": "closet",
+                "hand_cream": "bathroom cabinet"
+            },
+            "ground_truth": {
+                "wallet": "bookshelf",
+                "umbrella": "closet",
+                "hand_cream": "bathroom_cabinet"
             },
             "pfs": 33.33333333333333,
             "pfs_relaxed": 33.33333333333333
@@ -10150,6 +10201,55 @@
                 "global_noise_items": [
                     "character",
                     "water_glass"
+                ]
+            }
+        },
+        {
+            "persona": "Child_Safe",
+            "turn": 1,
+            "chore_type": "Morning Routine",
+            "prediction": {
+                "wallet": "closet",
+                "umbrella": "closet",
+                "hand_cream": "bathroom_cabinet"
+            },
+            "ground_truth": {
+                "wallet": "bookshelf",
+                "umbrella": "closet",
+                "hand_cream": "bathroom_cabinet"
+            },
+            "pfs": 66.66666666666666,
+            "pfs_relaxed": 66.66666666666666,
+            "cgm_snapshot": {
+                "user_id": "user_123",
+                "category_mappings": {
+                    "Outerwear": {
+                        "destination": "closet",
+                        "confidence": 0.9,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        },
+                        "member_examples": [
+                            "jacket"
+                        ]
+                    },
+                    "Hygiene_Products": {
+                        "destination": "bathroom_cabinet",
+                        "confidence": 0.85,
+                        "source": {
+                            "layer": "L1_passive",
+                            "observation_count": 1
+                        },
+                        "member_examples": [
+                            "toothpaste"
+                        ]
+                    }
+                },
+                "item_overrides": {},
+                "global_noise_items": [
+                    "water_glass",
+                    "keys"
                 ]
             }
         }
