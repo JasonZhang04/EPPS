@@ -22,7 +22,7 @@ class ThinkingMachineClient:
         self.client = tinker.ServiceClient(api_key=api_key)
         # Upgraded to the Instruct VL model for strict Pydantic JSON adherence
         # self.default_model = "Qwen/Qwen3-VL-30B-A3B-Instruct"
-        self.default_model = "Qwen/Qwen3-30B-A3B-Instruct-2507"
+        self.default_model = "Qwen/Qwen3-4B-Instruct-2507"
 
         # Initialize tokenizer and sampling client once to avoid per-query overhead
         training_client = self.client.create_lora_training_client(base_model=self.default_model, rank=1)
