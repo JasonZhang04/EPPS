@@ -35,10 +35,20 @@ def extract_cgm_from_background(api_client: ThinkingMachineClient, state_diff_lo
     ], temperature=0.0)
 
     print(f"\n[DEBUG] Raw Layer 1 LLM Response:\n{response}\n")
-    
-    # Extract JSON out of response
-    match = re.search(r'\{.*\}', response, re.DOTALL)
-    if match:
-        response = match.group(0)
-        
+
+    # Extract the last top-level JSON object from the response.
+    # The model sometimes echoes the schema before the actual data, so we
+    # take the last '{...}' block rather than the first.
+    last_end = response.rfind('}')
+    if last_end != -1:
+        depth = 0
+        for i in range(last_end, -1, -1):
+            if response[i] == '}':
+                depth += 1
+            elif response[i] == '{':
+                depth -= 1
+                if depth == 0:
+                    response = response[i:last_end + 1]
+                    break
+
     return response

@@ -24,12 +24,13 @@ def run_evaluation(dataset_path: str = "eval_dataset.json", persona_filter: str 
         dataset = json.load(f)
         
     api_client = ThinkingMachineClient()
-    
+    model_slug = api_client.default_model.split("/")[-1]  # e.g. "Qwen3-235B-A22B-Instruct-2507"
+
     # ==========================================
     # 1. PROPERLY LOAD EXISTING RESULTS FIRST
     # ==========================================
     os.makedirs("data", exist_ok=True)
-    results_path = "data/eval_results.json"
+    results_path = f"data/eval_results_{model_slug}.json"
     
     # Initialize the results container
     results = {

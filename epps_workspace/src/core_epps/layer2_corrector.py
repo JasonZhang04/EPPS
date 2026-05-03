@@ -27,8 +27,16 @@ def apply_human_correction(api_client: ThinkingMachineClient, correction_diff_lo
         {"role": "user", "content": user_message}
     ], temperature=0.0)
     
-    match = re.search(r'\{.*\}', response, re.DOTALL)
-    if match:
-        response = match.group(0)
-        
+    last_end = response.rfind('}')
+    if last_end != -1:
+        depth = 0
+        for i in range(last_end, -1, -1):
+            if response[i] == '}':
+                depth += 1
+            elif response[i] == '{':
+                depth -= 1
+                if depth == 0:
+                    response = response[i:last_end + 1]
+                    break
+
     return response

@@ -37,7 +37,11 @@ class EPPSAgent:
             delta = json.loads(delta_json)
             item = delta.get("item_name")
             dest = delta.get("new_destination")
-            
+
+            if not item or not dest:
+                print(f"[{self.user_id}] Layer 2: No valid correction found in log, skipping CGM update.")
+                return
+
             if item in self.cgm_state.item_overrides:
                 old_conf = self.cgm_state.item_overrides[item].confidence
                 # Each human correction is strong positive evidence: +0.2 per confirmation,

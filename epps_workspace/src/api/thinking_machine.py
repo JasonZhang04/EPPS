@@ -22,26 +22,20 @@ class ThinkingMachineClient:
         self.client = tinker.ServiceClient(api_key=api_key)
         # Upgraded to the Instruct VL model for strict Pydantic JSON adherence
         # self.default_model = "Qwen/Qwen3-VL-30B-A3B-Instruct"
-        self.default_model = "Qwen/Qwen3-235B-A22B-Instruct-2507"
+        self.default_model = "Qwen/Qwen3-30B-A3B-Instruct-2507"
+
+        # Initialize tokenizer and sampling client once to avoid per-query overhead
+        training_client = self.client.create_lora_training_client(base_model=self.default_model, rank=1)
+        self.tokenizer = training_client.get_tokenizer()
+        self.sampling_client = self.client.create_sampling_client(base_model=self.default_model)
 
     def query(self, messages: List[Dict[str, str]], temperature: float = 0.0, model: str = None) -> str:
-        """
-        Synchronous wrapper. All sync Tinker initializations must happen here to avoid deadlocks.
-        """
-        if model is None:
-            model = self.default_model
-
         prompt_text = ""
         for msg in messages:
             prompt_text += f"<|im_start|>{msg['role']}\n{msg['content']}<|im_end|>\n"
         prompt_text += "<|im_start|>assistant\n"
 
-        # MOVED SYNCHRONOUS CALLS OUT OF ASYNC CONTEXT
-        training_client = self.client.create_lora_training_client(base_model=model, rank=1)
-        tokenizer = training_client.get_tokenizer()
-        sampling_client = self.client.create_sampling_client(base_model=model)
-
-        return asyncio.run(self._async_query(prompt_text, temperature, sampling_client, tokenizer))
+        return asyncio.run(self._async_query(prompt_text, temperature, self.sampling_client, self.tokenizer))
 
     async def _async_query(self, prompt_text: str, temperature: float, sampling_client, tokenizer) -> str:
         # Tokenize prompt
